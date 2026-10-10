@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="How to set up PillBell, the medication alarm that rings until the dose is taken: adding medicines, simple mode, family profiles, and keeping reminders reliable on Samsung, Xiaomi and other phones.">
+<link rel="canonical" href="https://tomelo.app/pillbell/guide/">
+<link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/guide/">
+<link rel="alternate" hreflang="cs" href="https://tomelo.app/pillbell/guide/cs.html">
+<link rel="alternate" hreflang="de" href="https://tomelo.app/pillbell/guide/de.html">
+<link rel="alternate" hreflang="fr" href="https://tomelo.app/pillbell/guide/fr.html">
+<link rel="alternate" hreflang="es" href="https://tomelo.app/pillbell/guide/es.html">
+<link rel="alternate" hreflang="it" href="https://tomelo.app/pillbell/guide/it.html">
+<link rel="alternate" hreflang="pl" href="https://tomelo.app/pillbell/guide/pl.html">
+<link rel="alternate" hreflang="nl" href="https://tomelo.app/pillbell/guide/nl.html">
+<link rel="alternate" hreflang="pt" href="https://tomelo.app/pillbell/guide/pt.html">
+<link rel="alternate" hreflang="uk" href="https://tomelo.app/pillbell/guide/uk.html">
+<link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/guide/">
+<link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+<title>PillBell — User Guide</title>
+<style>
+  body { margin:0; font-family:"Segoe UI", system-ui, sans-serif; color:#1c2b3a;
+         background:#f4f7fb; font-size:18px; line-height:1.6; }
+  header { background:linear-gradient(140deg,#2a72c8,#164a8c); color:#fff;
+           padding:36px 20px 30px; text-align:center; }
+  header h1 { margin:0 0 6px; font-size:34px; }
+  header p { margin:0; color:#d8e6f7; }
+  .lang { margin-top:14px; }
+  .lang a { color:#fff; margin:0 8px; }
+  main { max-width:820px; margin:0 auto; padding:28px 20px 60px; }
+  h2 { color:#164a8c; font-size:26px; margin:40px 0 10px; border-bottom:2px solid #d5e2f2; padding-bottom:6px; }
+  ul { padding-left:22px; }
+  .tip { background:#e8f1fc; border-left:5px solid #2a72c8; padding:12px 16px; border-radius:0 10px 10px 0; margin:14px 0; }
+  .warn { background:#fdf0e7; border-left:5px solid #e8631f; padding:12px 16px; border-radius:0 10px 10px 0; margin:14px 0; }
+  .toc { background:#fff; border-radius:14px; padding:18px 24px; box-shadow:0 2px 10px rgba(20,40,70,.08); }
+  .toc a { color:#2a72c8; text-decoration:none; }
+  .shot { text-align:center; margin:18px 0 6px; }
+  .shot img { width:300px; max-width:88%; border-radius:22px; border:1px solid #d5e2f2; box-shadow:0 6px 20px rgba(20,40,70,.15); }
+  footer { text-align:center; color:#5a6b7e; font-size:15px; padding:24px 16px 40px; }
+  footer a { color:#2a72c8; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🔔 PillBell — User Guide</h1>
+  <p>The medication reminder that actually rings.</p>
+  <p class="lang"><a href="/pillbell/" title="PillBell home">🏠</a> · <a href="index.html"><b>EN</b></a> · <a href="cs.html">CS</a> · <a href="de.html">DE</a> · <a href="fr.html">FR</a> · <a href="es.html">ES</a> · <a href="it.html">IT</a> · <a href="pl.html">PL</a> · <a href="nl.html">NL</a> · <a href="pt.html">PT</a> · <a href="uk.html">UK</a></p>
+</header>
+<main>
+
+<div class="toc">
+<b>Contents:</b>
+<a href="#start">First launch</a> ·
+<a href="#add">Adding a medicine</a> ·
+<a href="#today">The Today screen</a> ·
+<a href="#ring">When it rings</a> ·
+<a href="#simple">Simple mode</a> ·
+<a href="#family">Family profiles</a> ·
+<a href="#widgets">Widgets</a> ·
+<a href="#history">History &amp; doctor PDF</a> ·
+<a href="#cabinet">Medicine cabinet &amp; supplies</a> ·
+<a href="#backup">Backups</a> ·
+<a href="#reliable">Keeping reminders reliable</a> ·
+<a href="#faq">FAQ</a>
+</div>
+
+<h2 id="start">First launch</h2>
+<p>When you open PillBell for the first time, a short guide asks for a few
+permissions. <b>Each one exists only so the reminder can actually ring</b> —
+PillBell has no internet access and collects nothing:</p>
+<ul>
+  <li><b>Notifications</b> — without them no reminder can appear.</li>
+  <li><b>Alarms &amp; reminders</b> — lets PillBell ring at the exact minute.</li>
+  <li><b>Full-screen reminders</b> — the alarm can light up the whole screen like an alarm clock.</li>
+  <li><b>Battery / background</b> — stops your phone from putting PillBell to sleep. The guide shows steps for your exact phone brand (Samsung, Xiaomi and others differ).</li>
+  <li><b>Do Not Disturb access</b> — so the reminder gets through even with DND on.</li>
+</ul>
+<div class="tip">At the end, try the <b>test reminder</b>: lock the phone, wait two
+minutes and see the alarm wake the screen and ring. That is exactly how a real
+reminder will behave.</div>
+<div class="warn"><b>Never “force stop”</b> PillBell in Android settings. A
+force-stopped app is not allowed to ring until you open it again by hand.</div>
+
+<h2 id="add">Adding a medicine</h2>
+<div class="shot"><img src="img/en/pridat.png" alt="" loading="lazy"></div>
+<p>Go to <b>Medicines → Add medicine</b>. A four-step wizard asks for the name,
+form and strength, the schedule, the amount per dose, and shows a summary. You
+can also add a <b>photo of the pack</b>, so you always know what to look for.</p>
+<p>PillBell handles every common schedule: fixed times a day (no limit),
+several times a day, every N hours, every N days, selected weekdays, cycles
+like 21 days on / 7 off, weekly and monthly medicines, alternate days, and
+half or variable doses (“1 or 2 tablets”).</p>
+
+<div class="shot"><img src="img/en/rozvrh.png" alt="" loading="lazy"></div>
+
+<h2 id="today">The Today screen</h2>
+<div class="shot"><img src="img/en/dnes.png" alt="" loading="lazy"></div>
+<p>Today works like a <b>daily pill organizer</b>: four compartments —
+Night, Morning, Midday, Evening. A green ✓ means the compartment is done;
+pill icons show what is still waiting.</p>
+<ul>
+  <li>You see <b>the whole day at once</b>, split into Night, Morning, Midday and Evening. Tapping a compartment scrolls the list to that part.</li>
+  <li>Tap a dose to <b>confirm or fix it</b>: Taken, Taken at a different time, Skipped, or back to Not taken.</li>
+  <li>You can confirm a dose <b>any time during the day</b>. Taking it more than 30 minutes early is recorded honestly as “Taken early”.</li>
+</ul>
+<div class="shot"><img src="img/en/plan.png" alt="" loading="lazy"></div>
+<p>The <b>Plan</b> tab shows <b>the whole week as a pill box</b>: columns are days, rows are parts of the day. A green ✓ means emptied, a number says how many doses are waiting, a zero means nothing is due then. Tap a day to open its schedule below; swipe sideways for the next week.</p>
+
+<h2 id="ring">When it rings</h2>
+<div class="shot"><img src="img/en/alarm_unlocked.png" alt="" loading="lazy"></div>
+<p>At the scheduled minute PillBell rings <b>like an alarm clock</b> — full
+screen, even from a locked phone, and it <b>keeps ringing until you answer</b>.
+It also gets through Do Not Disturb.</p>
+<ul>
+  <li><b>✓ Taken</b> — confirms the dose and stops the alarm.</li>
+  <li><b>Remind me in 15 minutes</b> — snoozes; the app then shows “Snoozed until HH:MM”.</li>
+  <li><b>Skip</b> — records the dose as deliberately skipped.</li>
+</ul>
+<p>If nobody reacts, the reminder <b>repeats itself</b> after a while. On the
+lock screen the medicine names are <b>hidden by default</b> for your privacy —
+you can allow them in Settings if you live alone.</p>
+
+<h2 id="simple">Simple mode</h2>
+<div class="shot"><img src="img/en/jednoduchy.png" alt="" loading="lazy"></div>
+<p>For anyone who finds phones difficult: <b>Settings → Display → Simplified</b>.
+The whole app becomes one big card — what to take next and one large button
+<b>“I took it”</b>. To return, drag the “Full view” slider at the bottom.</p>
+
+<h2 id="family">Family profiles</h2>
+<div class="shot"><img src="img/en/profily_dnes.png" alt="" loading="lazy"></div>
+<p>One phone can remind the whole household. Add people in
+<b>Settings → People</b>. Switch between them with the name button in the top
+right corner of Today — it also shows who still has doses waiting. Reminders
+say who they are for (“Anna: 2 medicines”).</p>
+
+<h2 id="widgets">Widgets</h2>
+<div class="shot"><img src="img/en/widgets.png" alt="" loading="lazy"></div>
+<p>Long-press an empty spot on your home screen → <b>Widgets</b> → PillBell.
+There are two kinds, each in a light and a dark version:</p>
+<ul>
+  <li><b>Today overview</b> — everyone in the household: progress, the next time, and the medicines due.</li>
+  <li><b>Person widget</b> (small) — when you add it, you pick whose medicines it shows. Put two next to each other: “Anna” and “Tom”.</li>
+</ul>
+
+<h2 id="history">History &amp; doctor PDF</h2>
+<div class="shot"><img src="img/en/historie.png" alt="" loading="lazy"></div>
+<p>The History tab keeps the last 30 days. One tap creates a <b>PDF medicine
+list for your doctor</b> — medicines, doses and how regularly you took them.
+You can also export everything as CSV, and fix past records if needed.</p>
+
+<h2 id="cabinet">Medicine cabinet &amp; supplies</h2>
+<div class="shot"><img src="img/en/leky.png" alt="" loading="lazy"></div>
+<p>Medicines taken only “as needed” (pain relief, drops…) live in the
+<b>medicine cabinet</b> — no schedule, you log them when you take them.
+For regular medicines you can track <b>supplies</b>: PillBell counts down
+and warns you before you run out.</p>
+
+<h2 id="backup">Backups — please read</h2>
+<div class="shot"><img src="img/en/zaloha.png" alt="" loading="lazy"></div>
+<div class="warn">PillBell is fully offline. That protects your privacy, but it
+also means: <b>if your phone is lost, your data is lost with it — unless you
+have a backup file.</b></div>
+<p>Go to <b>Settings → Backup</b> and export a backup (a single file including
+medicine photos). Store it anywhere you like — e-mail it to yourself, put it
+in a cloud drive, copy it to a computer. To move to a new phone: install
+PillBell, restore the backup, done — all reminders re-arm automatically.
+PillBell gently reminds you to back up about once a month.</p>
+
+<h2 id="reliable">Keeping reminders reliable</h2>
+<div class="shot"><img src="img/en/spolehlivost.png" alt="" loading="lazy"></div>
+<ul>
+  <li>Complete the <b>battery step</b> in onboarding (you can re-open it in Settings). Phone brands love to silence apps to save battery — this is the single most common reason reminder apps go quiet.</li>
+  <li><b>Never force-stop</b> the app.</li>
+  <li>Samsung: keep PillBell out of “Sleeping apps”. Xiaomi: allow “Autostart”. The app guides you to the right screen.</li>
+  <li>Check <b>Settings → Reliability</b> — PillBell logs every alarm and shows you honestly how many rang on time in the last 30 days.</li>
+</ul>
+
+<h2 id="faq">FAQ</h2>
+<p><b>A reminder didn’t ring. What now?</b> Open Settings → Reliability and the
+battery guide. In 9 of 10 cases the phone’s battery saver silenced the app —
+the guide fixes it. Also make sure the app was not force-stopped.</p>
+<p><b>Does it work with Do Not Disturb?</b> Yes, if you granted DND access
+during setup.</p>
+<p><b>What about travel and time zones?</b> Your schedule stays anchored to
+your home time — dose intervals never shift when you fly.</p>
+<p><b>Can I lock the app?</b> Yes — Settings → App lock (fingerprint/PIN).
+The ringing alarm and “Taken” always work without unlocking.</p>
+<p><b>Which languages?</b> English, German, Czech, French, Spanish, Italian,
+Polish, Dutch, Portuguese and Ukrainian.</p>
+
+</main>
+<footer>
+<p style="margin:0 0 14px"><a href="https://play.google.com/store/apps/details?id=app.pillbell.reminder&amp;hl=en&amp;utm_source=tomelo.app&amp;utm_medium=web&amp;utm_campaign=guide_en" style="display:inline-block;background:#0F5E63;color:#fff;padding:10px 18px;border-radius:10px;font-weight:600;text-decoration:none">▶ Get PillBell on Google Play</a></p>
+<p style="margin:0 0 10px;font-size:14px">PillBell is made by <a href="/">Tomelo Apps</a>.</p>
+  <p>Support: <a href="mailto:support@tomelo.app">support@tomelo.app</a> ·
+  <a href="/pillbell/privacy/">Privacy policy</a></p>
+  <p>PillBell is not a medical device and does not diagnose, treat, cure or
+  prevent any medical condition. Always follow the instructions of your doctor
+  or pharmacist.</p>
+</footer>
+</body>
+</html>

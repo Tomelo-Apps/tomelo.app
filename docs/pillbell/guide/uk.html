@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Посібник PillBell — будильника для ліків, який дзвонить, доки дозу не прийнято: додавання ліків, простий режим, профілі родини та надійні нагадування на Samsung, Xiaomi й інших телефонах.">
+<link rel="canonical" href="https://tomelo.app/pillbell/guide/uk.html">
+<link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/guide/">
+<link rel="alternate" hreflang="cs" href="https://tomelo.app/pillbell/guide/cs.html">
+<link rel="alternate" hreflang="de" href="https://tomelo.app/pillbell/guide/de.html">
+<link rel="alternate" hreflang="fr" href="https://tomelo.app/pillbell/guide/fr.html">
+<link rel="alternate" hreflang="es" href="https://tomelo.app/pillbell/guide/es.html">
+<link rel="alternate" hreflang="it" href="https://tomelo.app/pillbell/guide/it.html">
+<link rel="alternate" hreflang="pl" href="https://tomelo.app/pillbell/guide/pl.html">
+<link rel="alternate" hreflang="nl" href="https://tomelo.app/pillbell/guide/nl.html">
+<link rel="alternate" hreflang="pt" href="https://tomelo.app/pillbell/guide/pt.html">
+<link rel="alternate" hreflang="uk" href="https://tomelo.app/pillbell/guide/uk.html">
+<link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/guide/">
+<link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+<title>PillBell — Посібник користувача</title>
+<style>
+  body { margin:0; font-family:"Segoe UI", system-ui, sans-serif; color:#1c2b3a;
+         background:#f4f7fb; font-size:18px; line-height:1.6; }
+  header { background:linear-gradient(140deg,#2a72c8,#164a8c); color:#fff;
+           padding:36px 20px 30px; text-align:center; }
+  header h1 { margin:0 0 6px; font-size:34px; }
+  header p { margin:0; color:#d8e6f7; }
+  .lang { margin-top:14px; }
+  .lang a { color:#fff; margin:0 5px; }
+  main { max-width:820px; margin:0 auto; padding:28px 20px 60px; }
+  h2 { color:#164a8c; font-size:26px; margin:40px 0 10px; border-bottom:2px solid #d5e2f2; padding-bottom:6px; }
+  ul { padding-left:22px; }
+  .tip { background:#e8f1fc; border-left:5px solid #2a72c8; padding:12px 16px; border-radius:0 10px 10px 0; margin:14px 0; }
+  .warn { background:#fdf0e7; border-left:5px solid #e8631f; padding:12px 16px; border-radius:0 10px 10px 0; margin:14px 0; }
+  .toc { background:#fff; border-radius:14px; padding:18px 24px; box-shadow:0 2px 10px rgba(20,40,70,.08); }
+  .toc a { color:#2a72c8; text-decoration:none; }
+  .shot { text-align:center; margin:18px 0 6px; }
+  .shot img { width:300px; max-width:88%; border-radius:22px; border:1px solid #d5e2f2; box-shadow:0 6px 20px rgba(20,40,70,.15); }
+  footer { text-align:center; color:#5a6b7e; font-size:15px; padding:24px 16px 40px; }
+  footer a { color:#2a72c8; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🔔 PillBell — Посібник користувача</h1>
+  <p>Нагадування про ліки, яке справді дзвонить.</p>
+  <p class="lang"><a href="/pillbell/" title="PillBell home">🏠</a> · <a href="index.html">EN</a> · <a href="cs.html">CS</a> · <a href="de.html">DE</a> · <a href="fr.html">FR</a> · <a href="es.html">ES</a> · <a href="it.html">IT</a> · <a href="pl.html">PL</a> · <a href="nl.html">NL</a> · <a href="pt.html">PT</a> · <a href="uk.html"><b>UK</b></a></p>
+</header>
+<main>
+
+<div class="toc">
+<b>Зміст:</b>
+<a href="#start">Перший запуск</a> ·
+<a href="#add">Додавання ліків</a> ·
+<a href="#today">Екран «Сьогодні»</a> ·
+<a href="#ring">Коли дзвонить</a> ·
+<a href="#simple">Спрощений режим</a> ·
+<a href="#family">Сімейні профілі</a> ·
+<a href="#widgets">Віджети</a> ·
+<a href="#history">Історія та PDF для лікаря</a> ·
+<a href="#cabinet">Аптечка та запаси</a> ·
+<a href="#backup">Резервні копії</a> ·
+<a href="#reliable">Надійні нагадування</a> ·
+<a href="#faq">Часті запитання</a>
+</div>
+
+<h2 id="start">Перший запуск</h2>
+<p>Під час першого відкриття короткий помічник попросить кілька дозволів.
+<b>Кожен із них має єдину мету — щоб нагадування справді задзвонило.</b>
+PillBell не має доступу до інтернету й нічого не збирає:</p>
+<ul>
+  <li><b>Сповіщення</b> — без них жодне нагадування не з'явиться.</li>
+  <li><b>Будильники та нагадування</b> — щоб PillBell дзвонив точно до хвилини.</li>
+  <li><b>Повноекранні нагадування</b> — будильник може засвітити весь екран, як справжній будильник.</li>
+  <li><b>Батарея / фоновий режим</b> — щоб телефон не присипляв PillBell. Помічник покаже кроки саме для вашої марки телефона (Samsung, Xiaomi та інші відрізняються).</li>
+  <li><b>Доступ до «Не турбувати»</b> — нагадування пройде навіть з увімкненим режимом.</li>
+</ul>
+<div class="tip">Наприкінці спробуйте <b>тестове нагадування</b>: заблокуйте
+телефон, зачекайте дві хвилини й подивіться, як будильник будить екран і
+дзвонить. Саме так поводитиметься справжнє нагадування.</div>
+<div class="warn">Ніколи не <b>«зупиняйте примусово»</b> PillBell у
+налаштуваннях Android. Примусово зупинений застосунок не має права дзвонити,
+доки ви не відкриєте його знову вручну.</div>
+
+<h2 id="add">Додавання ліків</h2>
+<div class="shot"><img src="img/en/pridat.png" alt="" loading="lazy"></div>
+<p>Перейдіть у <b>Ліки → Додати ліки</b>. Помічник за чотири кроки запитає
+назву, форму та дозування, розклад, кількість на прийом і покаже підсумок.
+Можна додати й <b>фото упаковки</b>, щоб завжди знати, що шукати.</p>
+<p>PillBell впорається з усіма звичними розкладами: фіксовані години протягом
+дня (без обмежень), кілька разів на день, кожні N годин, кожні N днів, обрані
+дні тижня, цикли на кшталт 21 день / 7 перерви, щотижневі та щомісячні ліки,
+через день, а також половинні та змінні дози («1–2 таблетки»).</p>
+
+<div class="shot"><img src="img/en/rozvrh.png" alt="" loading="lazy"></div>
+
+<h2 id="today">Екран «Сьогодні»</h2>
+<div class="shot"><img src="img/en/dnes.png" alt="" loading="lazy"></div>
+<p>«Сьогодні» працює як <b>щоденна таблетниця</b>: чотири відділення — Ніч,
+Ранок, Обід, Вечір. Зелена ✓ означає «готово»; іконки таблеток показують, що
+ще чекає.</p>
+<ul>
+  <li>Ви бачите <b>весь день одразу</b>, поділений на Ніч, Ранок, Обід і Вечір. Дотик до комірки прокручує список саме до цієї частини.</li>
+  <li>Торкніться прийому, щоб <b>підтвердити або виправити</b>: Прийнято, Прийнято в інший час, Пропущено або назад «Не прийнято».</li>
+  <li>Підтвердити прийом можна <b>будь-коли протягом дня</b>. Прийом більш ніж за 30 хвилин наперед чесно позначається «Прийнято раніше».</li>
+</ul>
+<div class="shot"><img src="img/en/plan.png" alt="" loading="lazy"></div>
+<p>Вкладка <b>План</b> показує <b>цілий тиждень як таблетницю</b>: стовпці — дні, рядки — частини дня. Зелена ✓ означає спорожнено, число — скільки доз чекає, нуль — що тоді нічого немає. Торкніться дня, щоб відкрити його розклад; проведіть убік для наступного тижня.</p>
+
+<h2 id="ring">Коли дзвонить</h2>
+<div class="shot"><img src="img/en/alarm_unlocked.png" alt="" loading="lazy"></div>
+<p>У запланований час PillBell дзвонить <b>як будильник</b> — на весь екран,
+навіть на заблокованому телефоні, і <b>дзвонить, доки ви не відповісте</b>.
+Він проходить і крізь «Не турбувати».</p>
+<ul>
+  <li><b>✓ Прийнято</b> — підтверджує прийом і вимикає будильник.</li>
+  <li><b>Нагадати через 15 хвилин</b> — відкладає; далі скрізь показується «Відкладено до HH:MM».</li>
+  <li><b>Пропустити</b> — записує прийом як свідомо пропущений.</li>
+</ul>
+<p>Якщо ніхто не реагує, нагадування за деякий час <b>повториться</b>. На
+заблокованому екрані назви ліків <b>типово приховані</b> (приватність) —
+у Налаштуваннях їх можна дозволити, якщо ви мешкаєте самі.</p>
+
+<h2 id="simple">Спрощений режим</h2>
+<div class="shot"><img src="img/en/jednoduchy.png" alt="" loading="lazy"></div>
+<p>Для всіх, кому телефони даються важко: <b>Налаштування → Відображення →
+Спрощений</b>. Увесь застосунок стає однією великою карткою — що прийняти
+далі та одна велика кнопка <b>«Я прийняв(ла)»</b>. Повернутися можна
+повзунком «Повний режим» унизу.</p>
+
+<h2 id="family">Сімейні профілі</h2>
+<div class="shot"><img src="img/en/profily_dnes.png" alt="" loading="lazy"></div>
+<p>Один телефон може нагадувати всій родині. Додайте людей у
+<b>Налаштування → Люди</b>. Перемикайтеся кнопкою з іменем у правому
+верхньому куті «Сьогодні» — вона показує й те, у кого ще є прийоми попереду.
+Нагадування кажуть, кому належать («Анна: 2 ліки»).</p>
+
+<h2 id="widgets">Віджети</h2>
+<div class="shot"><img src="img/en/widgets.png" alt="" loading="lazy"></div>
+<p>Утримуйте порожнє місце на головному екрані → <b>Віджети</b> → PillBell.
+Є два види, кожен у світлій і темній версії:</p>
+<ul>
+  <li><b>Огляд дня</b> — уся родина: прогрес, найближчий час і ліки на черзі.</li>
+  <li><b>Особистий віджет</b> (малий) — додаючи, ви обираєте, чиї ліки він показує. Поставте два поруч: «Анна» і «Томаш».</li>
+</ul>
+
+<h2 id="history">Історія та PDF для лікаря</h2>
+<div class="shot"><img src="img/en/historie.png" alt="" loading="lazy"></div>
+<p>Вкладка «Історія» зберігає останні 30 днів. Одним дотиком створюється
+<b>PDF-список ліків для вашого лікаря</b> — ліки, дози та регулярність
+прийомів. Усе можна експортувати і в CSV, а давніші записи — виправити.</p>
+
+<h2 id="cabinet">Аптечка та запаси</h2>
+<div class="shot"><img src="img/en/leky.png" alt="" loading="lazy"></div>
+<p>Ліки «за потреби» (знеболювальні, краплі…) живуть в <b>аптечці</b> — без
+розкладу, ви записуєте їх, коли приймаєте. Для регулярних ліків можна
+відстежувати <b>запаси</b>: PillBell рахує та попереджає, перш ніж вони
+закінчаться.</p>
+
+<h2 id="backup">Резервні копії — прочитайте</h2>
+<div class="shot"><img src="img/en/zaloha.png" alt="" loading="lazy"></div>
+<div class="warn">PillBell працює повністю офлайн. Це захищає вашу
+приватність, але означає й таке: <b>якщо телефон загубиться, дані загубляться
+разом із ним — хіба що у вас є файл резервної копії.</b></div>
+<p>Перейдіть у <b>Налаштування → Резервна копія</b> та експортуйте копію
+(один файл разом із фото ліків). Зберігайте її де завгодно — надішліть собі
+поштою, покладіть у хмару, скопіюйте на комп'ютер. Перехід на новий телефон:
+встановіть PillBell, відновіть копію — готово, усі нагадування налаштуються
+знову самі. PillBell делікатно нагадує про копію приблизно раз на місяць.</p>
+
+<h2 id="reliable">Надійні нагадування</h2>
+<div class="shot"><img src="img/en/spolehlivost.png" alt="" loading="lazy"></div>
+<ul>
+  <li>Завершіть <b>крок із батареєю</b> в помічнику (він є і в Налаштуваннях). Виробники телефонів люблять присипляти застосунки заради батареї — це причина №1, чому нагадування «замовкають».</li>
+  <li><b>Ніколи не зупиняйте застосунок примусово.</b></li>
+  <li>Samsung: тримайте PillBell поза «Сплячими застосунками». Xiaomi: дозвольте «Автозапуск». Застосунок сам приведе вас на потрібний екран.</li>
+  <li>Зазирайте в <b>Налаштування → Надійність</b> — PillBell фіксує кожен будильник і чесно показує, скільки з них задзвонили вчасно за останні 30 днів.</li>
+</ul>
+
+<h2 id="faq">Часті запитання</h2>
+<p><b>Нагадування не задзвонило. Що робити?</b> Відкрийте Налаштування →
+Надійність і помічник батареї. У 9 з 10 випадків застосунок заглушило
+енергозбереження — помічник це виправить. Перевірте також, чи не був
+застосунок зупинений примусово.</p>
+<p><b>Чи працює з «Не турбувати»?</b> Так, якщо під час налаштування ви
+надали доступ.</p>
+<p><b>А подорожі та часові пояси?</b> Розклад лишається прив'язаним до
+домашнього часу — інтервали між прийомами під час перельотів ніколи не
+зсуваються.</p>
+<p><b>Чи можна заблокувати застосунок?</b> Так — Налаштування → Блокування
+застосунку (відбиток/PIN). Дзвінок будильника та «Прийнято» завжди працюють
+і без розблокування.</p>
+<p><b>Які мови?</b> Застосунок розмовляє українською, англійською,
+німецькою, чеською, французькою, іспанською, італійською, польською,
+нідерландською та португальською.</p>
+
+</main>
+<footer>
+<p style="margin:0 0 14px"><a href="https://play.google.com/store/apps/details?id=app.pillbell.reminder&amp;hl=uk&amp;utm_source=tomelo.app&amp;utm_medium=web&amp;utm_campaign=guide_uk" style="display:inline-block;background:#0F5E63;color:#fff;padding:10px 18px;border-radius:10px;font-weight:600;text-decoration:none">▶ Завантажити PillBell з Google Play</a></p>
+<p style="margin:0 0 10px;font-size:14px">PillBell is made by <a href="/">Tomelo Apps</a>.</p>
+  <p>Підтримка: <a href="mailto:support@tomelo.app">support@tomelo.app</a> ·
+  <a href="/pillbell/privacy/">Політика конфіденційності</a></p>
+  <p>PillBell не є медичним виробом і не призначений для діагностики,
+  лікування чи профілактики жодних захворювань. Завжди дотримуйтеся вказівок
+  свого лікаря або фармацевта.</p>
+</footer>
+</body>
+</html>
