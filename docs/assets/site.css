@@ -223,7 +223,7 @@ details p { margin: 0; padding: 0 22px 20px; color: var(--ink-2); }
 
 /* footer */
 .site-foot { margin-top: 72px; padding: 40px 0 56px; color: var(--ink-3); font-size: 16px; border-top: 1px solid var(--line); }
-.site-foot .wrap { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 28px; }
+.site-foot .wrap { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 28px; }
 .site-foot .foot-title { margin: 0 0 6px; color: var(--ink); font-size: 16px; font-weight: 700; }
 .site-foot a { color: var(--ink-2); text-decoration: none; display: block; padding: 11px 0; line-height: 1.4; }
 .site-foot a.brand { display: inline-flex; padding: 8px 0; }
@@ -269,3 +269,38 @@ details p { margin: 0; padding: 0 22px 20px; color: var(--ink-2); }
 .limits { gap: 0; }
 .limits li { background: none; border: 0; border-top: 1px solid var(--line); border-radius: 0; padding: 16px 0; }
 .limits li:last-child { border-bottom: 1px solid var(--line); }
+
+/* product navigation under the main header */
+.subnav { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-bottom: 16px; }
+.subnav .wrap { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; padding-top: 4px; padding-bottom: 4px; }
+.subnav-name { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; margin-right: 12px; }
+.subnav-name svg { width: 30px; height: 30px; }
+.subnav a { color: var(--ink-2); text-decoration: none; font-size: 16px; font-weight: 600; padding: 10px 14px; min-height: 44px; display: inline-flex; align-items: center; border-radius: 999px; }
+.subnav a:hover, .subnav a[aria-current="page"] { background: var(--sky); color: var(--ink); }
+
+/* help centre */
+.help-app { display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: start; margin-top: 28px; background: var(--surface); border: 1px solid var(--line); border-radius: 28px; padding: 26px; }
+.help-app > svg { width: 64px; height: 64px; }
+.help-app h2 { font-size: 26px; margin: 0; }
+.help-links { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 0; }
+.help-links li { border-top: 1px solid var(--line); }
+.help-links a { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 14px 0; min-height: 44px; text-decoration: none; color: var(--ink); font-weight: 600; }
+.help-links a::after { content: "→"; color: var(--brand); }
+.help-links a:hover { color: var(--brand); }
+.help-links small { display: block; font-weight: 400; color: var(--ink-3); font-size: 16px; }
+.contact-list { display: grid; gap: 14px; margin-top: 24px; }
+.contact-item { background: var(--surface); border: 1px solid var(--line); border-radius: 24px; padding: 22px 24px; }
+.contact-item h2 { font-size: 21px; margin: 0; }
+.contact-item p { margin-top: 6px; }
+.email { font-size: 20px; font-weight: 700; margin-top: 10px; user-select: all; }
+.email a { text-decoration-thickness: 2px; }
+@media (max-width: 560px) { .help-app { grid-template-columns: 1fr; } }
+
+/* photos of people using the apps (illustrative, AI-generated; real screenshots on the phones) */
+.photo { display: block; width: 100%; height: auto; border-radius: 28px; object-fit: cover; aspect-ratio: 4 / 3; background: var(--sky); }
+.hero-photo { box-shadow: var(--phone-shadow); aspect-ratio: 4 / 5; object-position: 74% 45%; max-height: 640px; }
+.photo-wide { margin-top: 22px; aspect-ratio: 16 / 9; object-position: 50% 45%; }
+.feature img.photo { width: 100%; border: 0; border-radius: 28px; }
+.app-tile { grid-template-columns: minmax(0, 340px) 1fr; }
+.app-tile img.photo { border: 0; aspect-ratio: 4 / 5; object-position: 72% 50%; }
+@media (max-width: 860px) { .app-tile img.photo { width: 100%; aspect-ratio: 4 / 3; } }

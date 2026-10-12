@@ -9,6 +9,8 @@ It's hosted free on **GitHub Pages**. The only cost is the domain.
 ```
 docs/                    ← the published website (GitHub Pages: branch main, folder /docs)
   index.html             Tomelo Apps home page
+  help/                  help centre for all apps
+  contact/               who to write to, and why
   pillbell/index.html    PillBell landing page
   pillbell/guide/        PillBell guide in 10 languages (moved from pillbell-legal) + screenshots
   pillbell/privacy/      PillBell app privacy policy
@@ -16,7 +18,7 @@ docs/                    ← the published website (GitHub Pages: branch main, f
   legal/                 legal notice (sole-trader details)
   404.html, robots.txt, sitemap.xml, CNAME, .nojekyll
   assets/                site.css, logo.svg (Tomelo mark), favicon.svg, fonts/ (Figtree, OFL, self-hosted)
-partials/                shared header + footer
+partials/                shared header, footer and product navigation (product-<app>.html)
 tools/apply_partials.py  copies the header/footer into every page
 ```
 
@@ -24,8 +26,14 @@ Editing the header or footer: change `partials/*.html`, then run
 `python tools/apply_partials.py`.
 
 Adding app #2: copy `docs/pillbell/` to `docs/<app>/`, replace the text and
-screenshots, add a tile on `docs/index.html` and links in
+screenshots, copy `partials/product-pillbell.html` to `product-<app>.html`
+(and teach `tools/apply_partials.py` its marker), add a tile on
+`docs/index.html`, a block on `docs/help/index.html` and links in
 `partials/footer.html`, run the script, and add the new pages to `sitemap.xml`.
+
+Photos in `docs/assets/photos/` are AI-generated scenes with real app
+screenshots composited in (source files and script: workspace repo,
+`podklady/znacka/fotky/`). Re-run the script when screenshots change.
 
 ---
 
