@@ -132,7 +132,7 @@ section { padding: 64px 0 0; }
 
 /* app tile */
 .app-tile { display: grid; grid-template-columns: 200px 1fr; gap: 32px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 32px; padding: 28px; box-shadow: var(--shadow); margin-top: 30px; }
-.app-tile img { border-radius: 24px; border: 1px solid var(--line); }
+.app-tile img.photo { border-radius: 24px; }
 .app-tile h3 { font-size: 28px; }
 .tag { display: inline-block; font-size: 16px; font-weight: 700; color: #14284A; background: var(--sun); padding: 4px 12px; border-radius: 999px; margin-top: 10px; }
 .app-tile p { margin-top: 12px; color: var(--ink-2); }
@@ -239,7 +239,7 @@ details p { margin: 0; padding: 0 22px 20px; color: var(--ink-2); }
   .hero-panel.phone-bottom { padding-bottom: 0; }
   .hero-panel.phone-bottom .hero-copy { padding-bottom: 0; }
   .feature.flip > :first-child { order: 0; }
-  .app-tile img { width: 150px; }
+  .app-tile img.photo { width: 150px; }
   .site-foot .wrap { grid-template-columns: 1fr; }
   .band { grid-template-columns: 1fr; padding: 32px 24px; border-radius: 28px; }
   .guide-hero .panel { padding: 32px 24px 26px; border-radius: 28px; }
@@ -275,6 +275,7 @@ details p { margin: 0; padding: 0 22px 20px; color: var(--ink-2); }
 .subnav .wrap { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; padding-top: 4px; padding-bottom: 4px; }
 .subnav-name { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; margin-right: 12px; }
 .subnav-name svg { width: 30px; height: 30px; }
+@media (max-width: 560px) { .subnav .wrap { gap: 0 2px; padding-top: 8px; } .subnav-name { flex-basis: 100%; margin: 0 0 2px; } .subnav a { padding: 10px 12px; } .subnav a:first-of-type { margin-left: -12px; } }
 .subnav a { color: var(--ink-2); text-decoration: none; font-size: 16px; font-weight: 600; padding: 10px 14px; min-height: 44px; display: inline-flex; align-items: center; border-radius: 999px; }
 .subnav a:hover, .subnav a[aria-current="page"] { background: var(--sky); color: var(--ink); }
 
@@ -298,7 +299,7 @@ details p { margin: 0; padding: 0 22px 20px; color: var(--ink-2); }
 
 /* photos of people using the apps (illustrative, AI-generated; real screenshots on the phones) */
 .photo { display: block; width: 100%; height: auto; border-radius: 28px; object-fit: cover; aspect-ratio: 4 / 3; background: var(--sky); }
-.hero-photo { box-shadow: var(--phone-shadow); aspect-ratio: 4 / 5; object-position: 46% 45%; max-height: 640px; }
+.hero-photo { box-shadow: var(--phone-shadow); aspect-ratio: 4 / 5; object-position: 50% 40%; max-height: 640px; }
 .photo-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 22px; margin-top: 22px; }
 .photo-wide { margin-top: 22px; aspect-ratio: 16 / 9; object-position: 50% 45%; }
 .feature img.photo { width: 100%; border: 0; border-radius: 28px; }
@@ -309,7 +310,7 @@ details p { margin: 0; padding: 0 22px 20px; color: var(--ink-2); }
 .tile-photo:hover img { transform: scale(1.02); }
 .tile-title { color: inherit; text-decoration: none; display: inline-block; padding: 7px 0; }
 .tile-title:hover { color: var(--brand-2); text-decoration: underline; text-underline-offset: 4px; }
-@media (max-width: 860px) { .app-tile img.photo { width: 100%; aspect-ratio: 4 / 3; } }
+@media (max-width: 860px) { .app-tile { grid-template-columns: 1fr; padding: 20px; } .app-tile img.photo { width: 100%; aspect-ratio: 4 / 3; } }
 
 /* official Google Play badge (artwork © Google LLC, used per Google's badge guidelines) */
 .play-link { display: inline-flex; border-radius: 10px; line-height: 0; transition: transform .12s var(--ease); }
