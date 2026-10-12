@@ -35,6 +35,11 @@ Photos in `docs/assets/photos/` are AI-generated scenes with real app
 screenshots composited in (source files and script: workspace repo,
 `podklady/znacka/fotky/`). Re-run the script when screenshots change.
 
+Google Play buttons in `docs/assets/badges/` are the official badge artwork
+(one per language, via the npm package `@rewilok/app-store-badges`, see
+`NOTICE.txt`). Google's rules: never redraw, recolour or crop them, keep them
+at least as tall as other buttons, and keep the trademark line on `/legal/`.
+
 ---
 
 ## Going live: about 1 hour, once

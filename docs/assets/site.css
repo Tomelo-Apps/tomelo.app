@@ -298,9 +298,15 @@ details p { margin: 0; padding: 0 22px 20px; color: var(--ink-2); }
 
 /* photos of people using the apps (illustrative, AI-generated; real screenshots on the phones) */
 .photo { display: block; width: 100%; height: auto; border-radius: 28px; object-fit: cover; aspect-ratio: 4 / 3; background: var(--sky); }
-.hero-photo { box-shadow: var(--phone-shadow); aspect-ratio: 4 / 5; object-position: 74% 45%; max-height: 640px; }
+.hero-photo { box-shadow: var(--phone-shadow); aspect-ratio: 4 / 5; object-position: 46% 45%; max-height: 640px; }
+.photo-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 22px; margin-top: 22px; }
 .photo-wide { margin-top: 22px; aspect-ratio: 16 / 9; object-position: 50% 45%; }
 .feature img.photo { width: 100%; border: 0; border-radius: 28px; }
 .app-tile { grid-template-columns: minmax(0, 340px) 1fr; }
-.app-tile img.photo { border: 0; aspect-ratio: 4 / 5; object-position: 72% 50%; }
+.app-tile img.photo { border: 0; aspect-ratio: 4 / 5; object-position: 44% 50%; }
 @media (max-width: 860px) { .app-tile img.photo { width: 100%; aspect-ratio: 4 / 3; } }
+
+/* official Google Play badge (artwork © Google LLC, used per Google's badge guidelines) */
+.play-link { display: inline-flex; border-radius: 10px; line-height: 0; transition: transform .12s var(--ease); }
+.play-link:active { transform: scale(.97); }
+.play-badge { height: 60px; width: auto; }

@@ -1,0 +1,23 @@
+@rewilok/app-store-badges
+Copyright 2026 Rewilok
+
+This product includes badge artwork that is the property of third parties:
+
+  - The "Download on the App Store" badge is the property of Apple Inc.
+    Apple, the Apple logo, iPhone, iPad, and App Store are trademarks or
+    service marks of Apple Inc., registered in the U.S. and other countries
+    and regions.
+
+  - The "Get it on Google Play" badge is the property of Google LLC.
+    Google Play and the Google Play logo are trademarks of Google LLC.
+
+The badge artwork is redistributed under each company's published brand
+guidelines and remains the property of its respective owner. Use of the
+badges in downstream products is governed by those guidelines, NOT by the
+Apache License 2.0 that covers the rest of this project. See:
+
+  https://developer.apple.com/app-store/marketing/guidelines/
+  https://play.google.com/intl/en_us/badges/
+
+This project is not affiliated with, endorsed by, or sponsored by Apple
+Inc. or Google LLC.
