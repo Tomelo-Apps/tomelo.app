@@ -1,7 +1,9 @@
 # tomelo.app: website for Tomelo Apps
 
-A plain static site: HTML, one stylesheet and images. No build step, no
-server, no cookies, no analytics, and nothing loaded from other companies.
+A plain static site: HTML, one stylesheet, one self-hosted font and images.
+No build step, no server, no cookies, no analytics, and nothing loaded from
+other companies. Logo source files and brand rules live in the workspace repo
+(`podklady/znacka/`).
 It's hosted free on **GitHub Pages**. The only cost is the domain.
 
 ```
@@ -13,7 +15,7 @@ docs/                    ← the published website (GitHub Pages: branch main, f
   privacy/               website privacy notice
   legal/                 legal notice (sole-trader details)
   404.html, robots.txt, sitemap.xml, CNAME, .nojekyll
-  assets/                site.css, logo.svg
+  assets/                site.css, logo.svg (Tomelo mark), favicon.svg, fonts/ (Figtree, OFL, self-hosted)
 partials/                shared header + footer
 tools/apply_partials.py  copies the header/footer into every page
 ```

@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PillBell: the medication alarm that keeps ringing</title>
-<meta name="description" content="PillBell is an Android medication alarm that rings full-screen until the dose is taken. Simple mode for older parents, family profiles, PDF for the doctor. No account, no internet permission, pay once.">
+<title>PillBell: a medicine alarm that really rings</title>
+<meta name="description" content="PillBell is an Android medicine alarm for people who take several medicines a day, or set up a parent's phone. It rings full screen until the dose is taken and shows that every reminder went off. No ads, no account, no internet permission, pay once.">
 <link rel="canonical" href="https://tomelo.app/pillbell/">
-<link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/site.css">
-<meta property="og:title" content="PillBell: the medication alarm that keeps ringing">
-<meta property="og:description" content="Rings like an alarm clock until the pill is taken. No account, no data, pay once.">
+<meta property="og:title" content="PillBell: a medicine alarm that really rings">
+<meta property="og:description" content="Rings like an alarm clock until the pill is taken. For you or your parents. No ads, no account, pay once.">
 <meta property="og:url" content="https://tomelo.app/pillbell/">
 <meta property="og:image" content="https://tomelo.app/pillbell/guide/img/en/alarm_unlocked.png">
 <meta property="og:type" content="website">
@@ -22,8 +22,8 @@
 <header class="site-head">
   <div class="wrap">
     <a class="brand" href="/" aria-label="Tomelo Apps home">
-      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="18" fill="#0F5E63"/><path d="M32 14c-8.3 0-14 6.2-14 14.6v8.6l-3.6 5.4c-.7 1.1.1 2.4 1.3 2.4h32.6c1.2 0 2-1.3 1.3-2.4L46 37.2v-8.6C46 20.2 40.3 14 32 14z" fill="#F7F4EF"/><circle cx="32" cy="51" r="4.2" fill="#E09A2D"/><path d="M32 23v13M26.5 28.5h11" stroke="#0F5E63" stroke-width="3.4" stroke-linecap="round"/></svg>
-      <span>tomelo <small>apps</small></span>
+      <svg viewBox="0 0 100 100" aria-hidden="true"><circle class="logo-on" cx="20" cy="20" r="13"/><circle class="logo-on" cx="50" cy="20" r="13"/><circle class="logo-on" cx="80" cy="20" r="13"/><circle class="logo-off" cx="20" cy="50" r="13"/><circle class="logo-on" cx="50" cy="50" r="13"/><circle class="logo-off" cx="80" cy="50" r="13"/><circle class="logo-off" cx="20" cy="80" r="13"/><circle class="logo-on" cx="50" cy="80" r="13"/><circle class="logo-sun" cx="80" cy="80" r="13"/></svg>
+      <span>Tomelo</span>
     </a>
     <nav class="nav" aria-label="Main">
       <a href="/#apps">Apps</a>
@@ -37,21 +37,59 @@
 
 <main>
   <div class="hero">
-    <div class="wrap hero-grid">
-      <div>
-        <p class="eyebrow">PillBell &middot; by Tomelo Apps</p>
-        <h1>The medicine alarm you set up for your parents.</h1>
-        <p class="lead">PillBell rings like an alarm clock, full screen, until the dose is taken. It's simple enough for them, and you can see whether every reminder actually went off. No account, no data collected, pay once.</p>
+    <div class="wrap">
+      <div class="hero-panel phone-bottom">
+      <div class="hero-copy">
+        <p class="app-id"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="20" fill="#2F6FDB"/><path d="M32 13c-8 0-13.5 5.9-13.5 13.9v8.4l-3.4 5.2c-.7 1 .1 2.3 1.3 2.3h31.2c1.2 0 2-1.3 1.3-2.3l-3.4-5.2v-8.4C45.5 18.9 40 13 32 13z" fill="#FFFFFF"/><rect x="25.5" y="45.5" width="13" height="7" rx="3.5" fill="#F7B733"/></svg><span><strong>PillBell</strong> by Tomelo Apps</span></p>
+        <h1>A medicine alarm that really rings.</h1>
+        <p class="lead"><strong>For you or your parents.</strong> PillBell rings like an alarm clock until the pill is taken: full screen, even on a locked phone, even when the phone is saving battery. And it shows you that every reminder went off.</p>
         <div class="actions">
           <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=app.pillbell.reminder&amp;utm_source=tomelo.app&amp;utm_medium=web&amp;utm_campaign=pillbell_hero">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3.5v17l15-8.5-15-8.5z"/></svg>
             Get it on Google Play</a>
-          <a class="btn btn-ghost" href="/pillbell/guide/">Read the guide</a>
+          <a class="btn btn-ghost" href="#how">How it works</a>
         </div>
+        <ul class="trust">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>No account. No tracking. No ads.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>No internet permission</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>One payment. No subscription, ever.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Android &middot; 10 languages</li>
+        </ul>
       </div>
       <img class="phone" src="/pillbell/guide/img/en/alarm_unlocked.png" alt="PillBell alarm screen: 12:00 PM, Omega-3, with large buttons Taken, Remind me in 15 minutes, Skip" width="560" height="1193">
+      </div>
     </div>
   </div>
+
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Made for people who take several medicines a day</h2>
+      <p class="section-lead">Three or more medicines, at different times, every day. That is when a reminder has to work, and when a quiet one does the most harm.</p>
+      <div class="cards two">
+        <div class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg></div>
+          <h3>For you</h3>
+          <p>You set it up yourself in a few steps. Any schedule, a photo of each pack, a supply warning, and a PDF list for your next doctor's visit.</p>
+        </div>
+        <div class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="8" r="3.5"/><circle cx="17" cy="9.5" r="2.5"/><path d="M2 21c0-3.6 2.7-6.5 6-6.5s6 2.9 6 6.5M14.5 15.2c.8-.5 1.6-.7 2.5-.7 2.8 0 5 2.4 5 5.5"/></svg></div>
+          <h3>For your parents</h3>
+          <p>You set up their phone once. They see one big card and one big button: &ldquo;I took it&rdquo;. You can check on the reliability screen that every reminder rang.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <h2 class="section-title">How it works</h2>
+      <ol class="steps">
+        <li><h3>Add the medicines</h3><p>Name, dose and schedule, with a photo of the pack if you like. Daily, chosen weekdays, cycles, weekly, monthly, half doses.</p></li>
+        <li><h3>Set up the phone once</h3><p>PillBell shows the one battery setting your brand of phone needs, then rings a test alarm so you can see it work.</p></li>
+        <li><h3>It rings until someone answers</h3><p>Full screen, through Do Not Disturb. Tap Taken, snooze for 15 minutes, or skip. Every alarm is recorded.</p></li>
+      </ol>
+    </div>
+  </section>
 
   <section>
     <div class="wrap">
@@ -72,14 +110,14 @@
       <div class="feature flip">
         <div>
           <h3>Proof, not promises.</h3>
-          <p>PillBell records every alarm and shows you how many rang on time over the last 30 days. If something on the phone gets in the way, you'll know, and the guide shows you how to fix it.</p>
+          <p>PillBell records every alarm and shows how many rang on time over the last 30 days, for example <strong>&ldquo;137 of 138&rdquo;</strong>. If something on the phone gets in the way, you'll see it, and the guide shows you how to fix it.</p>
         </div>
         <img src="/pillbell/guide/img/en/spolehlivost.png" alt="Settings screen showing 137 of 138 reminders delivered on time in the last 30 days" width="560" height="1193" loading="lazy">
       </div>
 
       <div class="feature">
         <div>
-          <h3>Simple enough for Mum.</h3>
+          <h3>Simple enough for anyone.</h3>
           <p>Simple mode turns the whole app into one big card: what to take next, and one large green button saying &ldquo;I took it&rdquo;. A photo of each pack shows which pill is which.</p>
         </div>
         <img src="/pillbell/guide/img/en/jednoduchy.png" alt="Simple mode with a large Next up card and an I took it button" width="560" height="1193" loading="lazy">
@@ -87,9 +125,9 @@
 
       <div class="feature flip">
         <div>
-          <h3>Complete enough for you.</h3>
+          <h3>Complete when you need it.</h3>
           <ul>
-            <li>The whole family in one app: Mum, Dad, yourself</li>
+            <li>Several people in one app: you, Mum, Dad</li>
             <li>Any schedule: daily, chosen weekdays, every few days, 21-on/7-off cycles, weekly, monthly, half doses</li>
             <li>As-needed medicines logged with one tap</li>
             <li>Supply tracking with a warning before you run out</li>
@@ -105,28 +143,69 @@
   <section>
     <div class="wrap">
       <div class="band">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.7-7 9-4-1.3-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <div>
         <h2>Private in a way you can check.</h2>
         <p>PillBell doesn't have permission to use the internet at all. It isn't just a promise not to send your data: the app can't send anything anywhere, and you can see that in your phone's app details. No account, no cloud, no ads, no tracking. Backups are files you create and keep wherever you like.</p>
+        </div>
       </div>
     </div>
   </section>
 
   <section>
     <div class="wrap narrow">
+      <h2 class="section-title">What PillBell doesn't do</h2>
+      <p class="section-lead">Better you hear it from us before you install it.</p>
+      <ul class="limits">
+        <li><strong>Android only.</strong> There is no iPhone version.</li>
+        <li><strong>No live alerts to family.</strong> Nothing leaves the phone, so PillBell can't message you when a parent misses a dose.</li>
+        <li><strong>No online sync.</strong> To move to a new phone, you use a backup file.</li>
+        <li><strong>No medical advice.</strong> It is a reminder and a personal diary, not a medical device. It doesn't calculate doses or check interactions.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap narrow">
       <h2 class="section-title">Questions</h2>
-      <div style="margin-top:22px">
+      <div class="faq">
         <details><summary>Which phones does it work on?</summary><p>Android phones. Setup includes a step for your exact phone brand, because Samsung, Xiaomi, Huawei, OnePlus and others each hide the battery setting in a different place.</p></details>
         <details><summary>How much does it cost?</summary><p>You pay once through Google Play. There's no subscription and nothing to renew.</p></details>
+        <details><summary>Can I set it up on my parent's phone?</summary><p>Yes. Install it on their phone, add their medicines and do the battery step there. Turn on simple mode if they find phones hard. Several people can also share one phone, each with their own profile.</p></details>
+        <details><summary>Does it ring when Do Not Disturb is on?</summary><p>Yes, if you allow Do Not Disturb access during setup. The guide explains each permission and why it is needed.</p></details>
+        <details><summary>A reminder didn't ring. What now?</summary><p>Open Settings &rarr; Reliability and the battery guide in the app. Most often the phone's battery saver silenced the app, and the guide shows how to fix it. Also make sure the app was never force-stopped. More in the <a href="/pillbell/guide/#reliable">guide</a>.</p></details>
         <details><summary>What if the phone is lost or replaced?</summary><p>Because nothing is stored online, make a backup file in Settings &rarr; Backup and keep it somewhere safe, such as in your email or a cloud drive. On a new phone, install PillBell, restore the file, and every reminder is set up again. PillBell reminds you to back up about once a month.</p></details>
         <details><summary>Which languages?</summary><p>English, German, Czech, French, Spanish, Italian, Polish, Dutch, Portuguese and Ukrainian.</p></details>
         <details><summary>Does it give medical advice?</summary><p>No. PillBell is a reminder and a personal diary. It is not a medical device, does not calculate doses and does not check drug interactions. Always follow your doctor's or pharmacist's instructions.</p></details>
+        <details><summary>How do I get help?</summary><p>Write to <a href="mailto:support@tomelo.app">support@tomelo.app</a>. A person reads every message. Payments and refunds go through Google Play.</p></details>
       </div>
-      <div class="actions">
-        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=app.pillbell.reminder&amp;utm_source=tomelo.app&amp;utm_medium=web&amp;utm_campaign=pillbell_faq">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3.5v17l15-8.5-15-8.5z"/></svg>
-          Get it on Google Play</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap narrow">
+      <h2 class="section-title">The guide, in your language</h2>
+      <p class="section-lead">Step by step, with screenshots: first setup, simple mode, family profiles, backups and keeping reminders reliable.</p>
+      <nav class="langs" aria-label="PillBell guide languages">
+        <a href="/pillbell/guide/" hreflang="en">English</a>
+        <a href="/pillbell/guide/cs.html" hreflang="cs">Čeština</a>
+        <a href="/pillbell/guide/de.html" hreflang="de">Deutsch</a>
+        <a href="/pillbell/guide/fr.html" hreflang="fr">Français</a>
+        <a href="/pillbell/guide/es.html" hreflang="es">Español</a>
+        <a href="/pillbell/guide/it.html" hreflang="it">Italiano</a>
+        <a href="/pillbell/guide/pl.html" hreflang="pl">Polski</a>
+        <a href="/pillbell/guide/nl.html" hreflang="nl">Nederlands</a>
+        <a href="/pillbell/guide/pt.html" hreflang="pt">Português</a>
+        <a href="/pillbell/guide/uk.html" hreflang="uk">Українська</a>
+      </nav>
+      <div class="cta-end">
+        <h2>Set it up once. Then it rings.</h2>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=app.pillbell.reminder&amp;utm_source=tomelo.app&amp;utm_medium=web&amp;utm_campaign=pillbell_faq">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3.5v17l15-8.5-15-8.5z"/></svg>
+            Get it on Google Play</a>
+        </div>
       </div>
-      <p style="margin-top:28px;color:var(--ink-3);font-size:15px">Guide in: <a href="/pillbell/guide/">English</a> &middot; <a href="/pillbell/guide/cs.html">Čeština</a> &middot; <a href="/pillbell/guide/de.html">Deutsch</a> &middot; <a href="/pillbell/guide/fr.html">Français</a> &middot; <a href="/pillbell/guide/es.html">Español</a> &middot; <a href="/pillbell/guide/it.html">Italiano</a> &middot; <a href="/pillbell/guide/pl.html">Polski</a> &middot; <a href="/pillbell/guide/nl.html">Nederlands</a> &middot; <a href="/pillbell/guide/pt.html">Português</a> &middot; <a href="/pillbell/guide/uk.html">Українська</a></p>
     </div>
   </section>
 </main>
@@ -135,7 +214,10 @@
 <footer class="site-foot">
   <div class="wrap">
     <div>
-      <h4>Tomelo Apps</h4>
+      <a class="brand" href="/" aria-label="Tomelo Apps home">
+        <svg viewBox="0 0 100 100" aria-hidden="true"><circle class="logo-on" cx="20" cy="20" r="13"/><circle class="logo-on" cx="50" cy="20" r="13"/><circle class="logo-on" cx="80" cy="20" r="13"/><circle class="logo-off" cx="20" cy="50" r="13"/><circle class="logo-on" cx="50" cy="50" r="13"/><circle class="logo-off" cx="80" cy="50" r="13"/><circle class="logo-off" cx="20" cy="80" r="13"/><circle class="logo-on" cx="50" cy="80" r="13"/><circle class="logo-sun" cx="80" cy="80" r="13"/></svg>
+        <span>Tomelo</span>
+      </a>
       <p>Small, private apps that do one job reliably. No accounts, no tracking, no ads. Pay once.</p>
       <p class="note">This website uses no cookies, no analytics and no third-party scripts or fonts.</p>
     </div>
