@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Посібник PillBell — будильника для ліків, який дзвонить, доки дозу не прийнято: додавання ліків, простий режим, профілі родини та надійні нагадування на Samsung, Xiaomi й інших телефонах.">
+<meta name="description" content="Як налаштувати PillBell — нагадування про ліки для Android, яке дзвонить, доки ви не підтвердите прийом: ліки, родина, резервні копії, батарея.">
 <link rel="canonical" href="https://tomelo.app/pillbell/guide/uk.html">
 <link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/guide/">
 <link rel="alternate" hreflang="cs" href="https://tomelo.app/pillbell/guide/cs.html">
@@ -17,11 +17,29 @@
 <link rel="alternate" hreflang="uk" href="https://tomelo.app/pillbell/guide/uk.html">
 <link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/guide/">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-<title>PillBell — Посібник користувача</title>
+<title>Посібник PillBell: нагадування про ліки на Android</title>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Tomelo Apps">
+<meta property="og:locale" content="uk_UA">
+<meta property="og:title" content="Посібник PillBell: нагадування про ліки на Android">
+<meta property="og:description" content="Як налаштувати PillBell — нагадування про ліки для Android, яке дзвонить, доки ви не підтвердите прийом: ліки, родина, резервні копії, батарея.">
+<meta property="og:url" content="https://tomelo.app/pillbell/guide/uk.html">
+<meta property="og:image" content="https://tomelo.app/assets/og-pillbell.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Tomelo Apps", "item": "https://tomelo.app/"}, {"@type": "ListItem", "position": 2, "name": "PillBell", "item": "https://tomelo.app/pillbell/"}, {"@type": "ListItem", "position": 3, "name": "PillBell — Посібник користувача", "item": "https://tomelo.app/pillbell/guide/uk.html"}]}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Посібник PillBell: нагадування про ліки на Android", "description": "Як налаштувати PillBell — нагадування про ліки для Android, яке дзвонить, доки ви не підтвердите прийом: ліки, родина, резервні копії, батарея.", "inLanguage": "uk", "url": "https://tomelo.app/pillbell/guide/uk.html", "image": "https://tomelo.app/assets/og-pillbell.png", "about": {"@type": "SoftwareApplication", "name": "PillBell", "operatingSystem": "Android"}, "publisher": {"@id": "https://tomelo.app/#org", "@type": "Organization", "name": "Tomelo Apps"}, "dateModified": "2026-10-12"}
+</script>
 </head>
 <body>
 <!--#header-->
+<a class="skip" href="#main">Перейти до змісту</a>
 <header class="site-head">
   <div class="wrap">
     <a class="brand" href="/" aria-label="Tomelo Apps home">
@@ -31,12 +49,13 @@
     <nav class="nav" aria-label="Main">
       <a href="/#apps">Apps</a>
       <a href="/pillbell/">PillBell</a>
-      <a href="/pillbell/guide/">Help</a>
+      <a href="/pillbell/guide/" aria-current="page">Help</a>
       <a href="mailto:support@tomelo.app">Contact</a>
     </nav>
   </div>
 </header>
 <!--/header-->
+<main id="main" class="guide-main">
 <div class="guide-hero">
   <div class="wrap narrow">
     <div class="panel">
@@ -57,7 +76,7 @@
     </div>
   </div>
 </div>
-<main class="wrap narrow guide">
+<div class="wrap narrow guide">
 
 <div class="toc">
 <b>Зміст:</b>
@@ -94,7 +113,7 @@ PillBell не має доступу до інтернету й нічого не
 доки ви не відкриєте його знову вручну.</div>
 
 <h2 id="add">Додавання ліків</h2>
-<div class="shot"><img src="img/en/pridat.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/pridat.webp" alt="Додавання ліків" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Перейдіть у <b>Ліки → Додати ліки</b>. Помічник за чотири кроки запитає
 назву, форму та дозування, розклад, кількість на прийом і покаже підсумок.
 Можна додати й <b>фото упаковки</b>, щоб завжди знати, що шукати.</p>
@@ -103,10 +122,10 @@ PillBell не має доступу до інтернету й нічого не
 дні тижня, цикли на кшталт 21 день / 7 перерви, щотижневі та щомісячні ліки,
 через день, а також половинні та змінні дози («1–2 таблетки»).</p>
 
-<div class="shot"><img src="img/en/rozvrh.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/rozvrh.webp" alt="Додавання ліків" width="560" height="1193" loading="lazy" decoding="async"></div>
 
 <h2 id="today">Екран «Сьогодні»</h2>
-<div class="shot"><img src="img/en/dnes.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/dnes.webp" alt="Екран «Сьогодні»" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>«Сьогодні» працює як <b>щоденна таблетниця</b>: чотири відділення — Ніч,
 Ранок, Обід, Вечір. Зелена ✓ означає «готово»; іконки таблеток показують, що
 ще чекає.</p>
@@ -115,11 +134,11 @@ PillBell не має доступу до інтернету й нічого не
   <li>Торкніться прийому, щоб <b>підтвердити або виправити</b>: Прийнято, Прийнято в інший час, Пропущено або назад «Не прийнято».</li>
   <li>Підтвердити прийом можна <b>будь-коли протягом дня</b>. Прийом більш ніж за 30 хвилин наперед чесно позначається «Прийнято раніше».</li>
 </ul>
-<div class="shot"><img src="img/en/plan.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/plan.webp" alt="Екран «Сьогодні»" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Вкладка <b>План</b> показує <b>цілий тиждень як таблетницю</b>: стовпці — дні, рядки — частини дня. Зелена ✓ означає спорожнено, число — скільки доз чекає, нуль — що тоді нічого немає. Торкніться дня, щоб відкрити його розклад; проведіть убік для наступного тижня.</p>
 
 <h2 id="ring">Коли дзвонить</h2>
-<div class="shot"><img src="img/en/alarm_unlocked.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/alarm_unlocked.webp" alt="Коли дзвонить" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>У запланований час PillBell дзвонить <b>як будильник</b> — на весь екран,
 навіть на заблокованому телефоні, і <b>дзвонить, доки ви не відповісте</b>.
 Він проходить і крізь «Не турбувати».</p>
@@ -133,21 +152,21 @@ PillBell не має доступу до інтернету й нічого не
 у Налаштуваннях їх можна дозволити, якщо ви мешкаєте самі.</p>
 
 <h2 id="simple">Спрощений режим</h2>
-<div class="shot"><img src="img/en/jednoduchy.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/jednoduchy.webp" alt="Спрощений режим" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Для всіх, кому телефони даються важко: <b>Налаштування → Відображення →
 Спрощений</b>. Увесь застосунок стає однією великою карткою — що прийняти
 далі та одна велика кнопка <b>«Я прийняв(ла)»</b>. Повернутися можна
 повзунком «Повний режим» унизу.</p>
 
 <h2 id="family">Сімейні профілі</h2>
-<div class="shot"><img src="img/en/profily_dnes.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/profily_dnes.webp" alt="Сімейні профілі" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Один телефон може нагадувати всій родині. Додайте людей у
 <b>Налаштування → Люди</b>. Перемикайтеся кнопкою з іменем у правому
 верхньому куті «Сьогодні» — вона показує й те, у кого ще є прийоми попереду.
 Нагадування кажуть, кому належать («Анна: 2 ліки»).</p>
 
 <h2 id="widgets">Віджети</h2>
-<div class="shot"><img src="img/en/widgets.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/widgets.webp" alt="Віджети" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Утримуйте порожнє місце на головному екрані → <b>Віджети</b> → PillBell.
 Є два види, кожен у світлій і темній версії:</p>
 <ul>
@@ -156,20 +175,20 @@ PillBell не має доступу до інтернету й нічого не
 </ul>
 
 <h2 id="history">Історія та PDF для лікаря</h2>
-<div class="shot"><img src="img/en/historie.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/historie.webp" alt="Історія та PDF для лікаря" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Вкладка «Історія» зберігає останні 30 днів. Одним дотиком створюється
 <b>PDF-список ліків для вашого лікаря</b> — ліки, дози та регулярність
 прийомів. Усе можна експортувати і в CSV, а давніші записи — виправити.</p>
 
 <h2 id="cabinet">Аптечка та запаси</h2>
-<div class="shot"><img src="img/en/leky.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/leky.webp" alt="Аптечка та запаси" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Ліки «за потреби» (знеболювальні, краплі…) живуть в <b>аптечці</b> — без
 розкладу, ви записуєте їх, коли приймаєте. Для регулярних ліків можна
 відстежувати <b>запаси</b>: PillBell рахує та попереджає, перш ніж вони
 закінчаться.</p>
 
 <h2 id="backup">Резервні копії — прочитайте</h2>
-<div class="shot"><img src="img/en/zaloha.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/zaloha.webp" alt="Резервні копії — прочитайте" width="560" height="1193" loading="lazy" decoding="async"></div>
 <div class="warn">PillBell працює повністю офлайн. Це захищає вашу
 приватність, але означає й таке: <b>якщо телефон загубиться, дані загубляться
 разом із ним — хіба що у вас є файл резервної копії.</b></div>
@@ -180,7 +199,7 @@ PillBell не має доступу до інтернету й нічого не
 знову самі. PillBell делікатно нагадує про копію приблизно раз на місяць.</p>
 
 <h2 id="reliable">Надійні нагадування</h2>
-<div class="shot"><img src="img/en/spolehlivost.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/spolehlivost.webp" alt="Надійні нагадування" width="560" height="1193" loading="lazy" decoding="async"></div>
 <ul>
   <li>Завершіть <b>крок із батареєю</b> в помічнику (він є і в Налаштуваннях). Виробники телефонів люблять присипляти застосунки заради батареї — це причина №1, чому нагадування «замовкають».</li>
   <li><b>Ніколи не зупиняйте застосунок примусово.</b></li>
@@ -205,7 +224,7 @@ PillBell не має доступу до інтернету й нічого не
 німецькою, чеською, французькою, іспанською, італійською, польською,
 нідерландською та португальською.</p>
 
-</main>
+</div>
 <div class="wrap narrow">
 <div class="guide-end">
 <div class="actions"><a href="https://play.google.com/store/apps/details?id=app.pillbell.reminder&amp;hl=uk&amp;utm_source=tomelo.app&amp;utm_medium=web&amp;utm_campaign=guide_uk" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3.5v17l15-8.5-15-8.5z"/></svg>
@@ -218,6 +237,7 @@ PillBell не має доступу до інтернету й нічого не
   свого лікаря або фармацевта.</p>
 </div>
 </div>
+</main>
 <!--#footer-->
 <footer class="site-foot">
   <div class="wrap">
@@ -230,13 +250,13 @@ PillBell не має доступу до інтернету й нічого не
       <p class="note">This website uses no cookies, no analytics and no third-party scripts or fonts.</p>
     </div>
     <div>
-      <h4>Apps</h4>
+      <p class="foot-title">Apps</p>
       <a href="/pillbell/">PillBell</a>
       <a href="/pillbell/guide/">PillBell guide</a>
       <a href="/pillbell/privacy/">PillBell privacy policy</a>
     </div>
     <div>
-      <h4>Company</h4>
+      <p class="foot-title">Company</p>
       <a href="mailto:support@tomelo.app">support@tomelo.app</a>
       <a href="/privacy/">Website privacy</a>
       <a href="/legal/">Legal notice</a>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Guida di PillBell, la sveglia per i farmaci che suona finché la dose non viene presa: aggiunta dei farmaci, modalità semplice, profili di famiglia e promemoria affidabili su Samsung, Xiaomi e altri telefoni.">
+<meta name="description" content="Come configurare PillBell, il promemoria farmaci per Android che suona finché non conferma l&#x27;assunzione: farmaci, famiglia, backup e batteria.">
 <link rel="canonical" href="https://tomelo.app/pillbell/guide/it.html">
 <link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/guide/">
 <link rel="alternate" hreflang="cs" href="https://tomelo.app/pillbell/guide/cs.html">
@@ -17,11 +17,29 @@
 <link rel="alternate" hreflang="uk" href="https://tomelo.app/pillbell/guide/uk.html">
 <link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/guide/">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-<title>PillBell — Guida all'uso</title>
+<title>Guida PillBell: promemoria farmaci per Android</title>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Tomelo Apps">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="Guida PillBell: promemoria farmaci per Android">
+<meta property="og:description" content="Come configurare PillBell, il promemoria farmaci per Android che suona finché non conferma l&#x27;assunzione: farmaci, famiglia, backup e batteria.">
+<meta property="og:url" content="https://tomelo.app/pillbell/guide/it.html">
+<meta property="og:image" content="https://tomelo.app/assets/og-pillbell.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Tomelo Apps", "item": "https://tomelo.app/"}, {"@type": "ListItem", "position": 2, "name": "PillBell", "item": "https://tomelo.app/pillbell/"}, {"@type": "ListItem", "position": 3, "name": "PillBell — Guida all'uso", "item": "https://tomelo.app/pillbell/guide/it.html"}]}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Guida PillBell: promemoria farmaci per Android", "description": "Come configurare PillBell, il promemoria farmaci per Android che suona finché non conferma l'assunzione: farmaci, famiglia, backup e batteria.", "inLanguage": "it", "url": "https://tomelo.app/pillbell/guide/it.html", "image": "https://tomelo.app/assets/og-pillbell.png", "about": {"@type": "SoftwareApplication", "name": "PillBell", "operatingSystem": "Android"}, "publisher": {"@id": "https://tomelo.app/#org", "@type": "Organization", "name": "Tomelo Apps"}, "dateModified": "2026-10-12"}
+</script>
 </head>
 <body>
 <!--#header-->
+<a class="skip" href="#main">Vai al contenuto</a>
 <header class="site-head">
   <div class="wrap">
     <a class="brand" href="/" aria-label="Tomelo Apps home">
@@ -31,12 +49,13 @@
     <nav class="nav" aria-label="Main">
       <a href="/#apps">Apps</a>
       <a href="/pillbell/">PillBell</a>
-      <a href="/pillbell/guide/">Help</a>
+      <a href="/pillbell/guide/" aria-current="page">Help</a>
       <a href="mailto:support@tomelo.app">Contact</a>
     </nav>
   </div>
 </header>
 <!--/header-->
+<main id="main" class="guide-main">
 <div class="guide-hero">
   <div class="wrap narrow">
     <div class="panel">
@@ -57,7 +76,7 @@
     </div>
   </div>
 </div>
-<main class="wrap narrow guide">
+<div class="wrap narrow guide">
 
 <div class="toc">
 <b>Indice:</b>
@@ -94,7 +113,7 @@ impostazioni Android. Un'app arrestata forzatamente non può suonare finché non
 la riaprite a mano.</div>
 
 <h2 id="add">Aggiungere un farmaco</h2>
-<div class="shot"><img src="img/en/pridat.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/pridat.webp" alt="Aggiungere un farmaco" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Andate su <b>Farmaci → Aggiungi farmaco</b>. Una procedura in quattro passi
 chiede nome, forma e dosaggio, orario, quantità per dose e mostra un
 riepilogo. Potete aggiungere anche una <b>foto della confezione</b>, per
@@ -104,10 +123,10 @@ limite), più volte al giorno, ogni N ore, ogni N giorni, giorni della
 settimana scelti, cicli tipo 21 giorni / 7 di pausa, farmaci settimanali e
 mensili, a giorni alterni e dosi parziali o variabili («1 o 2 compresse»).</p>
 
-<div class="shot"><img src="img/en/rozvrh.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/rozvrh.webp" alt="Aggiungere un farmaco" width="560" height="1193" loading="lazy" decoding="async"></div>
 
 <h2 id="today">La schermata Oggi</h2>
-<div class="shot"><img src="img/en/dnes.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/dnes.webp" alt="La schermata Oggi" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Oggi funziona come un <b>portapillole giornaliero</b>: quattro scomparti —
 Notte, Mattina, Mezzogiorno, Sera. Una ✓ verde significa fatto; le icone delle
 pillole mostrano cosa aspetta ancora.</p>
@@ -116,11 +135,11 @@ pillole mostrano cosa aspetta ancora.</p>
   <li>Toccate una dose per <b>confermarla o correggerla</b>: Presa, Presa a un'altra ora, Saltata, o di nuovo Non presa.</li>
   <li>Una dose si può confermare <b>in qualsiasi momento della giornata</b>. Prenderla con più di 30 minuti di anticipo viene registrato onestamente come «Presa in anticipo».</li>
 </ul>
-<div class="shot"><img src="img/en/plan.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/plan.webp" alt="La schermata Oggi" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>La scheda <b>Piano</b> mostra <b>tutta la settimana come un portapillole</b>: le colonne sono i giorni, le righe i momenti della giornata. Un ✓ verde significa svuotato, un numero quante dosi attendono, uno zero che non c’è nulla. Tocchi un giorno per aprirne il dettaglio; scorra per la settimana successiva.</p>
 
 <h2 id="ring">Quando suona</h2>
-<div class="shot"><img src="img/en/alarm_unlocked.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/alarm_unlocked.webp" alt="Quando suona" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Al minuto previsto PillBell suona <b>come una sveglia</b> — a schermo
 intero, anche a telefono bloccato, e <b>continua a suonare finché non
 rispondete</b>. Passa anche attraverso Non disturbare.</p>
@@ -135,21 +154,21 @@ predefinita</b> (privacy) — potete consentirli nelle Impostazioni se vivete da
 soli.</p>
 
 <h2 id="simple">Modalità semplificata</h2>
-<div class="shot"><img src="img/en/jednoduchy.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/jednoduchy.webp" alt="Modalità semplificata" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Per chi ha poca dimestichezza con i telefoni: <b>Impostazioni →
 Visualizzazione → Semplificata</b>. Tutta l'app diventa un'unica grande
 scheda — cosa prendere dopo e un grande pulsante <b>«L'ho preso»</b>. Per
 tornare, trascinate il cursore «Vista completa» in basso.</p>
 
 <h2 id="family">Profili familiari</h2>
-<div class="shot"><img src="img/en/profily_dnes.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/profily_dnes.webp" alt="Profili familiari" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Un solo telefono può ricordare i farmaci a tutta la casa. Aggiungete le
 persone in <b>Impostazioni → Persone</b>. Passate dall'una all'altra con il
 pulsante col nome in alto a destra di Oggi — mostra anche chi ha ancora dosi
 in sospeso. I promemoria dicono a chi appartengono («Anna: 2 farmaci»).</p>
 
 <h2 id="widgets">Widget</h2>
-<div class="shot"><img src="img/en/widgets.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/widgets.webp" alt="Widget" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Tenete premuto un punto vuoto della schermata iniziale → <b>Widget</b> →
 PillBell. Ce ne sono due tipi, ognuno in versione chiara e scura:</p>
 <ul>
@@ -158,21 +177,21 @@ PillBell. Ce ne sono due tipi, ognuno in versione chiara e scura:</p>
 </ul>
 
 <h2 id="history">Cronologia e PDF per il medico</h2>
-<div class="shot"><img src="img/en/historie.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/historie.webp" alt="Cronologia e PDF per il medico" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>La scheda Cronologia conserva gli ultimi 30 giorni. Con un tocco create un
 <b>elenco dei farmaci in PDF per il vostro medico</b> — farmaci, dosi e con
 quale regolarità li avete presi. Tutto è esportabile anche in CSV e i record
 passati si possono correggere.</p>
 
 <h2 id="cabinet">Armadietto dei medicinali e scorte</h2>
-<div class="shot"><img src="img/en/leky.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/leky.webp" alt="Armadietto dei medicinali e scorte" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>I farmaci «al bisogno» (antidolorifici, gocce…) vivono
 nell'<b>armadietto</b> — senza orario, li annotate quando li prendete. Per i
 farmaci regolari potete seguire le <b>scorte</b>: PillBell conta alla rovescia
 e avvisa prima che finiscano.</p>
 
 <h2 id="backup">Backup — da leggere</h2>
-<div class="shot"><img src="img/en/zaloha.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/zaloha.webp" alt="Backup — da leggere" width="560" height="1193" loading="lazy" decoding="async"></div>
 <div class="warn">PillBell è completamente offline. Questo protegge la vostra
 privacy, ma significa anche: <b>se perdete il telefono, i dati vanno persi con
 esso — a meno che non abbiate un file di backup.</b></div>
@@ -184,7 +203,7 @@ promemoria si riattivano da soli. PillBell ricorda gentilmente il backup circa
 una volta al mese.</p>
 
 <h2 id="reliable">Promemoria affidabili</h2>
-<div class="shot"><img src="img/en/spolehlivost.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/spolehlivost.webp" alt="Promemoria affidabili" width="560" height="1193" loading="lazy" decoding="async"></div>
 <ul>
   <li>Completate il <b>passaggio batteria</b> della procedura guidata (lo trovate anche nelle Impostazioni). I produttori adorano addormentare le app per risparmiare batteria — è la causa n. 1 dei promemoria che «ammutoliscono».</li>
   <li><b>Mai arrestare forzatamente</b> l'app.</li>
@@ -207,7 +226,7 @@ sbloccare.</p>
 <p><b>Quali lingue?</b> L'app parla italiano, inglese, tedesco, ceco,
 francese, spagnolo, polacco, olandese, portoghese e ucraino.</p>
 
-</main>
+</div>
 <div class="wrap narrow">
 <div class="guide-end">
 <div class="actions"><a href="https://play.google.com/store/apps/details?id=app.pillbell.reminder&amp;hl=it&amp;utm_source=tomelo.app&amp;utm_medium=web&amp;utm_campaign=guide_it" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3.5v17l15-8.5-15-8.5z"/></svg>
@@ -220,6 +239,7 @@ Scarica PillBell su Google Play</a></div>
   del vostro medico o farmacista.</p>
 </div>
 </div>
+</main>
 <!--#footer-->
 <footer class="site-foot">
   <div class="wrap">
@@ -232,13 +252,13 @@ Scarica PillBell su Google Play</a></div>
       <p class="note">This website uses no cookies, no analytics and no third-party scripts or fonts.</p>
     </div>
     <div>
-      <h4>Apps</h4>
+      <p class="foot-title">Apps</p>
       <a href="/pillbell/">PillBell</a>
       <a href="/pillbell/guide/">PillBell guide</a>
       <a href="/pillbell/privacy/">PillBell privacy policy</a>
     </div>
     <div>
-      <h4>Company</h4>
+      <p class="foot-title">Company</p>
       <a href="mailto:support@tomelo.app">support@tomelo.app</a>
       <a href="/privacy/">Website privacy</a>
       <a href="/legal/">Legal notice</a>

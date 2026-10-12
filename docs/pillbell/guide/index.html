@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="How to set up PillBell, the medication alarm that rings until the dose is taken: adding medicines, simple mode, family profiles, and keeping reminders reliable on Samsung, Xiaomi and other phones.">
+<meta name="description" content="How to set up PillBell, the Android medicine reminder that rings until you take the dose: medicines, simple mode, family, backups, battery settings.">
 <link rel="canonical" href="https://tomelo.app/pillbell/guide/">
 <link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/guide/">
 <link rel="alternate" hreflang="cs" href="https://tomelo.app/pillbell/guide/cs.html">
@@ -17,11 +17,29 @@
 <link rel="alternate" hreflang="uk" href="https://tomelo.app/pillbell/guide/uk.html">
 <link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/guide/">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-<title>PillBell — User Guide</title>
+<title>PillBell guide: set up your medicine reminder on Android</title>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Tomelo Apps">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="PillBell guide: set up your medicine reminder on Android">
+<meta property="og:description" content="How to set up PillBell, the Android medicine reminder that rings until you take the dose: medicines, simple mode, family, backups, battery settings.">
+<meta property="og:url" content="https://tomelo.app/pillbell/guide/">
+<meta property="og:image" content="https://tomelo.app/assets/og-pillbell.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Tomelo Apps", "item": "https://tomelo.app/"}, {"@type": "ListItem", "position": 2, "name": "PillBell", "item": "https://tomelo.app/pillbell/"}, {"@type": "ListItem", "position": 3, "name": "PillBell — User Guide", "item": "https://tomelo.app/pillbell/guide/"}]}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "TechArticle", "headline": "PillBell guide: set up your medicine reminder on Android", "description": "How to set up PillBell, the Android medicine reminder that rings until you take the dose: medicines, simple mode, family, backups, battery settings.", "inLanguage": "en", "url": "https://tomelo.app/pillbell/guide/", "image": "https://tomelo.app/assets/og-pillbell.png", "about": {"@type": "SoftwareApplication", "name": "PillBell", "operatingSystem": "Android"}, "publisher": {"@id": "https://tomelo.app/#org", "@type": "Organization", "name": "Tomelo Apps"}, "dateModified": "2026-10-12"}
+</script>
 </head>
 <body>
 <!--#header-->
+<a class="skip" href="#main">Skip to content</a>
 <header class="site-head">
   <div class="wrap">
     <a class="brand" href="/" aria-label="Tomelo Apps home">
@@ -31,12 +49,13 @@
     <nav class="nav" aria-label="Main">
       <a href="/#apps">Apps</a>
       <a href="/pillbell/">PillBell</a>
-      <a href="/pillbell/guide/">Help</a>
+      <a href="/pillbell/guide/" aria-current="page">Help</a>
       <a href="mailto:support@tomelo.app">Contact</a>
     </nav>
   </div>
 </header>
 <!--/header-->
+<main id="main" class="guide-main">
 <div class="guide-hero">
   <div class="wrap narrow">
     <div class="panel">
@@ -57,7 +76,7 @@
     </div>
   </div>
 </div>
-<main class="wrap narrow guide">
+<div class="wrap narrow guide">
 
 <div class="toc">
 <b>Contents:</b>
@@ -93,7 +112,7 @@ reminder will behave.</div>
 force-stopped app is not allowed to ring until you open it again by hand.</div>
 
 <h2 id="add">Adding a medicine</h2>
-<div class="shot"><img src="img/en/pridat.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/pridat.webp" alt="Adding a medicine" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Go to <b>Medicines → Add medicine</b>. A four-step wizard asks for the name,
 form and strength, the schedule, the amount per dose, and shows a summary. You
 can also add a <b>photo of the pack</b>, so you always know what to look for.</p>
@@ -102,10 +121,10 @@ several times a day, every N hours, every N days, selected weekdays, cycles
 like 21 days on / 7 off, weekly and monthly medicines, alternate days, and
 half or variable doses (“1 or 2 tablets”).</p>
 
-<div class="shot"><img src="img/en/rozvrh.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/rozvrh.webp" alt="Adding a medicine" width="560" height="1193" loading="lazy" decoding="async"></div>
 
 <h2 id="today">The Today screen</h2>
-<div class="shot"><img src="img/en/dnes.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/dnes.webp" alt="The Today screen" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Today works like a <b>daily pill organizer</b>: four compartments —
 Night, Morning, Midday, Evening. A green ✓ means the compartment is done;
 pill icons show what is still waiting.</p>
@@ -114,11 +133,11 @@ pill icons show what is still waiting.</p>
   <li>Tap a dose to <b>confirm or fix it</b>: Taken, Taken at a different time, Skipped, or back to Not taken.</li>
   <li>You can confirm a dose <b>any time during the day</b>. Taking it more than 30 minutes early is recorded honestly as “Taken early”.</li>
 </ul>
-<div class="shot"><img src="img/en/plan.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/plan.webp" alt="The Today screen" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>The <b>Plan</b> tab shows <b>the whole week as a pill box</b>: columns are days, rows are parts of the day. A green ✓ means emptied, a number says how many doses are waiting, a zero means nothing is due then. Tap a day to open its schedule below; swipe sideways for the next week.</p>
 
 <h2 id="ring">When it rings</h2>
-<div class="shot"><img src="img/en/alarm_unlocked.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/alarm_unlocked.webp" alt="When it rings" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>At the scheduled minute PillBell rings <b>like an alarm clock</b> — full
 screen, even from a locked phone, and it <b>keeps ringing until you answer</b>.
 It also gets through Do Not Disturb.</p>
@@ -132,20 +151,20 @@ lock screen the medicine names are <b>hidden by default</b> for your privacy —
 you can allow them in Settings if you live alone.</p>
 
 <h2 id="simple">Simple mode</h2>
-<div class="shot"><img src="img/en/jednoduchy.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/jednoduchy.webp" alt="Simple mode" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>For anyone who finds phones difficult: <b>Settings → Display → Simplified</b>.
 The whole app becomes one big card — what to take next and one large button
 <b>“I took it”</b>. To return, drag the “Full view” slider at the bottom.</p>
 
 <h2 id="family">Family profiles</h2>
-<div class="shot"><img src="img/en/profily_dnes.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/profily_dnes.webp" alt="Family profiles" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>One phone can remind the whole household. Add people in
 <b>Settings → People</b>. Switch between them with the name button in the top
 right corner of Today — it also shows who still has doses waiting. Reminders
 say who they are for (“Anna: 2 medicines”).</p>
 
 <h2 id="widgets">Widgets</h2>
-<div class="shot"><img src="img/en/widgets.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/widgets.webp" alt="Widgets" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Long-press an empty spot on your home screen → <b>Widgets</b> → PillBell.
 There are two kinds, each in a light and a dark version:</p>
 <ul>
@@ -154,20 +173,20 @@ There are two kinds, each in a light and a dark version:</p>
 </ul>
 
 <h2 id="history">History &amp; doctor PDF</h2>
-<div class="shot"><img src="img/en/historie.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/historie.webp" alt="History &amp; doctor PDF" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>The History tab keeps the last 30 days. One tap creates a <b>PDF medicine
 list for your doctor</b> — medicines, doses and how regularly you took them.
 You can also export everything as CSV, and fix past records if needed.</p>
 
 <h2 id="cabinet">Medicine cabinet &amp; supplies</h2>
-<div class="shot"><img src="img/en/leky.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/leky.webp" alt="Medicine cabinet &amp; supplies" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Medicines taken only “as needed” (pain relief, drops…) live in the
 <b>medicine cabinet</b> — no schedule, you log them when you take them.
 For regular medicines you can track <b>supplies</b>: PillBell counts down
 and warns you before you run out.</p>
 
 <h2 id="backup">Backups — please read</h2>
-<div class="shot"><img src="img/en/zaloha.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/zaloha.webp" alt="Backups — please read" width="560" height="1193" loading="lazy" decoding="async"></div>
 <div class="warn">PillBell is fully offline. That protects your privacy, but it
 also means: <b>if your phone is lost, your data is lost with it — unless you
 have a backup file.</b></div>
@@ -178,7 +197,7 @@ PillBell, restore the backup, done — all reminders re-arm automatically.
 PillBell gently reminds you to back up about once a month.</p>
 
 <h2 id="reliable">Keeping reminders reliable</h2>
-<div class="shot"><img src="img/en/spolehlivost.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/spolehlivost.webp" alt="Keeping reminders reliable" width="560" height="1193" loading="lazy" decoding="async"></div>
 <ul>
   <li>Complete the <b>battery step</b> in onboarding (you can re-open it in Settings). Phone brands love to silence apps to save battery — this is the single most common reason reminder apps go quiet.</li>
   <li><b>Never force-stop</b> the app.</li>
@@ -199,7 +218,7 @@ The ringing alarm and “Taken” always work without unlocking.</p>
 <p><b>Which languages?</b> English, German, Czech, French, Spanish, Italian,
 Polish, Dutch, Portuguese and Ukrainian.</p>
 
-</main>
+</div>
 <div class="wrap narrow">
 <div class="guide-end">
 <div class="actions"><a href="https://play.google.com/store/apps/details?id=app.pillbell.reminder&amp;hl=en&amp;utm_source=tomelo.app&amp;utm_medium=web&amp;utm_campaign=guide_en" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3.5v17l15-8.5-15-8.5z"/></svg>
@@ -212,6 +231,7 @@ Get PillBell on Google Play</a></div>
   or pharmacist.</p>
 </div>
 </div>
+</main>
 <!--#footer-->
 <footer class="site-foot">
   <div class="wrap">
@@ -224,13 +244,13 @@ Get PillBell on Google Play</a></div>
       <p class="note">This website uses no cookies, no analytics and no third-party scripts or fonts.</p>
     </div>
     <div>
-      <h4>Apps</h4>
+      <p class="foot-title">Apps</p>
       <a href="/pillbell/">PillBell</a>
       <a href="/pillbell/guide/">PillBell guide</a>
       <a href="/pillbell/privacy/">PillBell privacy policy</a>
     </div>
     <div>
-      <h4>Company</h4>
+      <p class="foot-title">Company</p>
       <a href="mailto:support@tomelo.app">support@tomelo.app</a>
       <a href="/privacy/">Website privacy</a>
       <a href="/legal/">Legal notice</a>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Guía de PillBell, la alarma de medicamentos que suena hasta que se toma la dosis: añadir medicamentos, modo sencillo, perfiles familiares y recordatorios fiables en Samsung, Xiaomi y otros móviles.">
+<meta name="description" content="Cómo configurar PillBell, el recordatorio de medicamentos para Android que suena hasta que confirma la toma: medicamentos, familia, copias, batería.">
 <link rel="canonical" href="https://tomelo.app/pillbell/guide/es.html">
 <link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/guide/">
 <link rel="alternate" hreflang="cs" href="https://tomelo.app/pillbell/guide/cs.html">
@@ -17,11 +17,29 @@
 <link rel="alternate" hreflang="uk" href="https://tomelo.app/pillbell/guide/uk.html">
 <link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/guide/">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-<title>PillBell — Guía de uso</title>
+<title>Guía de PillBell: recordatorio de medicamentos en Android</title>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Tomelo Apps">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Guía de PillBell: recordatorio de medicamentos en Android">
+<meta property="og:description" content="Cómo configurar PillBell, el recordatorio de medicamentos para Android que suena hasta que confirma la toma: medicamentos, familia, copias, batería.">
+<meta property="og:url" content="https://tomelo.app/pillbell/guide/es.html">
+<meta property="og:image" content="https://tomelo.app/assets/og-pillbell.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Tomelo Apps", "item": "https://tomelo.app/"}, {"@type": "ListItem", "position": 2, "name": "PillBell", "item": "https://tomelo.app/pillbell/"}, {"@type": "ListItem", "position": 3, "name": "PillBell — Guía de uso", "item": "https://tomelo.app/pillbell/guide/es.html"}]}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Guía de PillBell: recordatorio de medicamentos en Android", "description": "Cómo configurar PillBell, el recordatorio de medicamentos para Android que suena hasta que confirma la toma: medicamentos, familia, copias, batería.", "inLanguage": "es", "url": "https://tomelo.app/pillbell/guide/es.html", "image": "https://tomelo.app/assets/og-pillbell.png", "about": {"@type": "SoftwareApplication", "name": "PillBell", "operatingSystem": "Android"}, "publisher": {"@id": "https://tomelo.app/#org", "@type": "Organization", "name": "Tomelo Apps"}, "dateModified": "2026-10-12"}
+</script>
 </head>
 <body>
 <!--#header-->
+<a class="skip" href="#main">Saltar al contenido</a>
 <header class="site-head">
   <div class="wrap">
     <a class="brand" href="/" aria-label="Tomelo Apps home">
@@ -31,12 +49,13 @@
     <nav class="nav" aria-label="Main">
       <a href="/#apps">Apps</a>
       <a href="/pillbell/">PillBell</a>
-      <a href="/pillbell/guide/">Help</a>
+      <a href="/pillbell/guide/" aria-current="page">Help</a>
       <a href="mailto:support@tomelo.app">Contact</a>
     </nav>
   </div>
 </header>
 <!--/header-->
+<main id="main" class="guide-main">
 <div class="guide-hero">
   <div class="wrap narrow">
     <div class="panel">
@@ -57,7 +76,7 @@
     </div>
   </div>
 </div>
-<main class="wrap narrow guide">
+<div class="wrap narrow guide">
 
 <div class="toc">
 <b>Contenido:</b>
@@ -94,7 +113,7 @@ Android. Una aplicación cerrada a la fuerza no puede sonar hasta que usted la
 abra de nuevo a mano.</div>
 
 <h2 id="add">Añadir un medicamento</h2>
-<div class="shot"><img src="img/en/pridat.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/pridat.webp" alt="Añadir un medicamento" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Vaya a <b>Medicamentos → Añadir medicamento</b>. Un asistente de cuatro
 pasos pregunta el nombre, la forma y la dosis, el horario, la cantidad por
 toma y muestra un resumen. También puede añadir una <b>foto del envase</b>,
@@ -104,10 +123,10 @@ límite), varias veces al día, cada N horas, cada N días, días concretos de l
 semana, ciclos tipo 21 días / 7 de descanso, medicamentos semanales y
 mensuales, días alternos y dosis parciales o variables («1 o 2 comprimidos»).</p>
 
-<div class="shot"><img src="img/en/rozvrh.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/rozvrh.webp" alt="Añadir un medicamento" width="560" height="1193" loading="lazy" decoding="async"></div>
 
 <h2 id="today">La pantalla Hoy</h2>
-<div class="shot"><img src="img/en/dnes.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/dnes.webp" alt="La pantalla Hoy" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Hoy funciona como un <b>pastillero diario</b>: cuatro compartimentos —
 Noche, Mañana, Mediodía, Tarde. Un ✓ verde significa hecho; los iconos de
 pastillas muestran lo que aún espera.</p>
@@ -116,11 +135,11 @@ pastillas muestran lo que aún espera.</p>
   <li>Toque una toma para <b>confirmarla o corregirla</b>: Tomada, Tomada a otra hora, Saltada, o de vuelta a No tomada.</li>
   <li>Puede confirmar una toma <b>en cualquier momento del día</b>. Tomarla más de 30 minutos antes se registra honestamente como «Tomada antes».</li>
 </ul>
-<div class="shot"><img src="img/en/plan.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/plan.webp" alt="La pantalla Hoy" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>La pestaña <b>Plan</b> muestra <b>toda la semana como un pastillero</b>: las columnas son días y las filas momentos del día. Un ✓ verde significa vaciado, un número cuántas tomas esperan y un cero que no hay nada. Toque un día para abrir su detalle; deslice para la semana siguiente.</p>
 
 <h2 id="ring">Cuando suena</h2>
-<div class="shot"><img src="img/en/alarm_unlocked.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/alarm_unlocked.webp" alt="Cuando suena" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>En el minuto programado, PillBell suena <b>como un despertador</b> — a
 pantalla completa, incluso con el teléfono bloqueado, y <b>sigue sonando hasta
 que usted responde</b>. También atraviesa el modo No molestar.</p>
@@ -134,21 +153,21 @@ la pantalla de bloqueo, los nombres de los medicamentos están <b>ocultos por
 defecto</b> (privacidad) — puede permitirlos en Ajustes si vive solo.</p>
 
 <h2 id="simple">Modo simplificado</h2>
-<div class="shot"><img src="img/en/jednoduchy.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/jednoduchy.webp" alt="Modo simplificado" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Para quien le cuesten los teléfonos: <b>Ajustes → Pantalla →
 Simplificada</b>. Toda la aplicación se convierte en una gran tarjeta — qué
 toca tomar y un gran botón <b>«Ya lo tomé»</b>. Para volver, deslice el
 control «Vista completa» de abajo.</p>
 
 <h2 id="family">Perfiles familiares</h2>
-<div class="shot"><img src="img/en/profily_dnes.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/profily_dnes.webp" alt="Perfiles familiares" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Un teléfono puede recordar a toda la casa. Añada personas en <b>Ajustes →
 Personas</b>. Cambie entre ellas con el botón del nombre arriba a la derecha
 de Hoy — también muestra quién tiene tomas pendientes. Los recordatorios dicen
 para quién son («Anna: 2 medicamentos»).</p>
 
 <h2 id="widgets">Widgets</h2>
-<div class="shot"><img src="img/en/widgets.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/widgets.webp" alt="Widgets" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Mantenga pulsado un hueco vacío de la pantalla de inicio →
 <b>Widgets</b> → PillBell. Hay dos tipos, cada uno en versión clara y oscura:</p>
 <ul>
@@ -157,21 +176,21 @@ para quién son («Anna: 2 medicamentos»).</p>
 </ul>
 
 <h2 id="history">Historial y PDF para el médico</h2>
-<div class="shot"><img src="img/en/historie.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/historie.webp" alt="Historial y PDF para el médico" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>La pestaña Historial guarda los últimos 30 días. Con un toque crea una
 <b>lista de medicamentos en PDF para su médico</b> — medicamentos, dosis y con
 qué regularidad los tomó. Todo puede exportarse también como CSV, y los
 registros antiguos pueden corregirse.</p>
 
 <h2 id="cabinet">Botiquín y existencias</h2>
-<div class="shot"><img src="img/en/leky.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/leky.webp" alt="Botiquín y existencias" width="560" height="1193" loading="lazy" decoding="async"></div>
 <p>Los medicamentos «según necesidad» (analgésicos, gotas…) viven en el
 <b>botiquín</b> — sin horario; se anotan cuando se toman. En los medicamentos
 regulares puede controlar las <b>existencias</b>: PillBell descuenta y avisa
 antes de que se acaben.</p>
 
 <h2 id="backup">Copias de seguridad — importante</h2>
-<div class="shot"><img src="img/en/zaloha.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/zaloha.webp" alt="Copias de seguridad — importante" width="560" height="1193" loading="lazy" decoding="async"></div>
 <div class="warn">PillBell funciona totalmente sin conexión. Eso protege su
 privacidad, pero también significa: <b>si pierde el teléfono, pierde los datos
 — salvo que tenga un archivo de copia de seguridad.</b></div>
@@ -182,7 +201,7 @@ PillBell, restaure la copia y listo — todos los recordatorios se rearman
 solos. PillBell le recuerda la copia con suavidad una vez al mes.</p>
 
 <h2 id="reliable">Recordatorios fiables</h2>
-<div class="shot"><img src="img/en/spolehlivost.png" alt="" loading="lazy"></div>
+<div class="shot"><img src="img/en/spolehlivost.webp" alt="Recordatorios fiables" width="560" height="1193" loading="lazy" decoding="async"></div>
 <ul>
   <li>Complete el <b>paso de batería</b> del asistente (también está en Ajustes). Los fabricantes duermen las aplicaciones para ahorrar batería — es la causa n.º 1 de que los recordatorios «se callen».</li>
   <li><b>Nunca fuerce el cierre</b> de la aplicación.</li>
@@ -205,7 +224,7 @@ desbloquear.</p>
 <p><b>¿Qué idiomas?</b> La aplicación habla español, inglés, alemán,
 checo, francés, italiano, polaco, neerlandés, portugués y ucraniano.</p>
 
-</main>
+</div>
 <div class="wrap narrow">
 <div class="guide-end">
 <div class="actions"><a href="https://play.google.com/store/apps/details?id=app.pillbell.reminder&amp;hl=es&amp;utm_source=tomelo.app&amp;utm_medium=web&amp;utm_campaign=guide_es" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3.5v17l15-8.5-15-8.5z"/></svg>
@@ -218,6 +237,7 @@ Descargar PillBell en Google Play</a></div>
   farmacéutico.</p>
 </div>
 </div>
+</main>
 <!--#footer-->
 <footer class="site-foot">
   <div class="wrap">
@@ -230,13 +250,13 @@ Descargar PillBell en Google Play</a></div>
       <p class="note">This website uses no cookies, no analytics and no third-party scripts or fonts.</p>
     </div>
     <div>
-      <h4>Apps</h4>
+      <p class="foot-title">Apps</p>
       <a href="/pillbell/">PillBell</a>
       <a href="/pillbell/guide/">PillBell guide</a>
       <a href="/pillbell/privacy/">PillBell privacy policy</a>
     </div>
     <div>
-      <h4>Company</h4>
+      <p class="foot-title">Company</p>
       <a href="mailto:support@tomelo.app">support@tomelo.app</a>
       <a href="/privacy/">Website privacy</a>
       <a href="/legal/">Legal notice</a>
