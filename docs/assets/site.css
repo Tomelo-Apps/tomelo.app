@@ -304,6 +304,11 @@ details p { margin: 0; padding: 0 22px 20px; color: var(--ink-2); }
 .feature img.photo { width: 100%; border: 0; border-radius: 28px; }
 .app-tile { grid-template-columns: minmax(0, 340px) 1fr; }
 .app-tile img.photo { border: 0; aspect-ratio: 4 / 5; object-position: 44% 50%; }
+.tile-photo { display: block; border-radius: 28px; overflow: hidden; }
+.tile-photo img { transition: transform .3s var(--ease); }
+.tile-photo:hover img { transform: scale(1.02); }
+.tile-title { color: inherit; text-decoration: none; display: inline-block; padding: 7px 0; }
+.tile-title:hover { color: var(--brand-2); text-decoration: underline; text-underline-offset: 4px; }
 @media (max-width: 860px) { .app-tile img.photo { width: 100%; aspect-ratio: 4 / 3; } }
 
 /* official Google Play badge (artwork © Google LLC, used per Google's badge guidelines) */
