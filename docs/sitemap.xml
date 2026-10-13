@@ -1,10 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://tomelo.app/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://tomelo.app/contact/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://tomelo.app/help/</loc><lastmod>2026-10-13</lastmod></url>
+  <url>
+    <loc>https://tomelo.app/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/contact/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/contact/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/contact/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/contact/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/help/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/help/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/help/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/help/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/help/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/help/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/help/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/help/"/>
+  </url>
   <url><loc>https://tomelo.app/legal/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://tomelo.app/pillbell/</loc><lastmod>2026-10-13</lastmod></url>
+  <url>
+    <loc>https://tomelo.app/pillbell/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
+  </url>
   <url><loc>https://tomelo.app/privacy/</loc><lastmod>2026-10-13</lastmod></url>
   <url>
     <loc>https://tomelo.app/pillbell/guide/cs.html</loc><lastmod>2026-10-13</lastmod>
@@ -147,4 +199,508 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/guide/"/>
   </url>
   <url><loc>https://tomelo.app/pillbell/privacy/</loc><lastmod>2026-10-13</lastmod></url>
+  <url>
+    <loc>https://tomelo.app/cs/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/cs/contact/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/contact/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/contact/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/contact/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/cs/help/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/help/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/help/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/help/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/help/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/help/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/help/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/help/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/cs/pillbell/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/de/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/de/contact/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/contact/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/contact/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/contact/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/de/help/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/help/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/help/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/help/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/help/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/help/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/help/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/help/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/de/pillbell/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/fr/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/fr/contact/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/contact/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/contact/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/contact/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/fr/help/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/help/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/help/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/help/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/help/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/help/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/help/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/help/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/fr/pillbell/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/es/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/es/contact/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/contact/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/contact/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/contact/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/es/help/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/help/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/help/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/help/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/help/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/help/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/help/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/help/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/es/pillbell/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/it/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/it/contact/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/contact/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/contact/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/contact/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/it/help/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/help/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/help/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/help/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/help/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/help/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/help/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/help/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/it/pillbell/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/pl/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/pl/contact/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/contact/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/contact/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/contact/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/pl/help/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/help/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/help/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/help/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/help/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/help/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/help/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/help/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/pl/pillbell/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/nl/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/nl/contact/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/contact/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/contact/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/contact/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/nl/help/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/help/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/help/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/help/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/help/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/help/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/help/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/help/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/nl/pillbell/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/pt/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/pt/contact/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/contact/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/contact/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/contact/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/pt/help/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/help/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/help/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/help/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/help/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/help/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/help/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/help/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/pt/pillbell/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/uk/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/uk/contact/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/contact/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/contact/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/contact/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/uk/help/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/help/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/help/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/help/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/help/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/help/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/help/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/help/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/help/"/>
+  </url>
+  <url>
+    <loc>https://tomelo.app/uk/pillbell/</loc><lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomelo.app/cs/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomelo.app/de/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tomelo.app/fr/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomelo.app/es/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tomelo.app/it/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomelo.app/pl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://tomelo.app/nl/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://tomelo.app/pt/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
+  </url>
 </urlset>
