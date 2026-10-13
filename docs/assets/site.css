@@ -337,3 +337,4 @@ details p { margin: 0; padding: 0 22px 20px; color: var(--ink-2); }
 .lang-menu[open] summary .chev { transform: rotate(180deg); }
 @media (max-width: 420px) { .nav { gap: 2px; } .nav a, .lang-menu summary { padding: 11px 10px; } .site-foot { margin-top: 40px; } .foot-links { column-gap: 16px; } }
 @media (max-width: 560px) { .foot-langs { display: none; } }
+.shots-note { margin-top: 8px; color: var(--ink-2); font-size: 16px; }
