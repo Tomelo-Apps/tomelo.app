@@ -21,3 +21,9 @@ Apache License 2.0 that covers the rest of this project. See:
 
 This project is not affiliated with, endorsed by, or sponsored by Apple
 Inc. or Google LLC.
+
+Tomelo note (2026-10-13): in google-play-cs.svg the package had the wrong
+Czech top line ("ROZJEĎTE TO"). It was replaced with Google's established
+Czech wording "NYNÍ NA", taken from Google's earlier official Czech badge
+artwork (via github.com/steverichey/google-play-badge-svg) and scaled to the
+current badge's letter size. Nothing else in the artwork was changed.
