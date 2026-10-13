@@ -31,6 +31,14 @@ screenshots, copy `partials/product-pillbell.html` to `product-<app>.html`
 `docs/index.html`, a block on `docs/help/index.html` and links in
 `partials/footer.html`, run the script, and add the new pages to `sitemap.xml`.
 
+**Languages.** Home, PillBell, help and contact exist in all 10 app languages
+under `docs/<lang>/` (English stays at the root). They are copies of the English
+pages, so when English copy changes, update the other languages too. All
+languages except English and Czech are machine drafts (`status: draft` comment
+in `<head>`) until a native speaker approves them. Menus, footers and the
+language switcher are filled by `tools/apply_partials.py`; after adding or
+removing pages run it and then `python tools/build_sitemap.py`.
+
 Photos in `docs/assets/photos/` are AI-generated scenes with real app
 screenshots composited in (source files and script: workspace repo,
 `podklady/znacka/fotky/`). Re-run the script when screenshots change.
