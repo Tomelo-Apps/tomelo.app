@@ -316,3 +316,7 @@ details p { margin: 0; padding: 0 22px 20px; color: var(--ink-2); }
 .play-link { display: inline-flex; border-radius: 10px; line-height: 0; transition: transform .12s var(--ease); }
 .play-link:active { transform: scale(.97); }
 .play-badge { height: 60px; width: auto; }
+.foot-langs { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 4px; margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--line); }
+.foot-langs span { color: var(--ink-2); margin-right: 6px; }
+.site-foot .foot-langs a { padding: 11px 10px; min-height: 44px; display: inline-flex; align-items: center; }
+.site-foot .foot-langs a[aria-current] { font-weight: 700; color: var(--ink); }
