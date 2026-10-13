@@ -158,9 +158,6 @@ for page in sorted(SITE.rglob("*.html")):
     v["p"] = p
     v["guide_href"] = url(guide_rel(lang))
 
-    header = fill(PART["header"], v)
-    if section(base, rel):
-        header = mark(header, p + section(base, rel))
 
     product = fill(PART["product-pillbell"], v)
     here = {"pillbell/index.html": f"{p}/pillbell/", "pillbell/privacy/index.html": "/pillbell/privacy/"}.get(base)
@@ -175,7 +172,18 @@ for page in sorted(SITE.rglob("*.html")):
         for l, r in eq.items())
     v["langs"] = (f'<nav class="foot-langs wrap" aria-label="{v["language"]}"><span>{v["language"]}:</span> {links}</nav>'
                   if len(eq) > 1 else "")
+    menu = {l: r for l, r in equivalents(rel).items()} if len(eq) > 1 else {l: variant(l, "index.html") for l in LANGS if (SITE / variant(l, "index.html")).exists()}
+    items = "".join(
+        f'<li><a href="{url(r)}" hreflang="{l}" lang="{l}"' + (' aria-current="true"' if l == lang else "") + f">{NAMES[l]}</a></li>"
+        for l, r in menu.items())
+    v["langmenu"] = (f'<details class="lang-menu"><summary aria-label="{v["language"]}: {NAMES[lang]}">'
+                     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">'
+                     '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>'
+                     f'<span>{lang.upper()}</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><ul>{items}</ul></details>') if len(menu) > 1 else ""
     footer = fill(PART["footer"], v)
+    header = fill(PART["header"], v)
+    if section(base, rel):
+        header = mark(header, p + section(base, rel))
 
     new = re.sub(r"<!--#header-->.*?<!--/header-->", lambda m: f"<!--#header-->\n{header}\n<!--/header-->", text, flags=re.S)
     new = re.sub(r"<!--#footer-->.*?<!--/footer-->", lambda m: f"<!--#footer-->\n{footer}\n<!--/footer-->", new, flags=re.S)

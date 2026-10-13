@@ -222,14 +222,17 @@ details p { margin: 0; padding: 0 22px 20px; color: var(--ink-2); }
 .guide-end .actions { margin-top: 0; }
 
 /* footer */
-.site-foot { margin-top: 72px; padding: 40px 0 56px; color: var(--ink-3); font-size: 16px; border-top: 1px solid var(--line); }
-.site-foot .wrap { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 28px; }
+.site-foot { margin-top: 56px; padding: 28px 0 32px; color: var(--ink-3); font-size: 16px; border-top: 1px solid var(--line); }
+.site-foot .foot-main { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 8px 40px; }
+.foot-brand { flex: 0 1 340px; }
+.foot-links { flex: 1 1 420px; display: flex; flex-wrap: wrap; justify-content: flex-end; column-gap: 22px; }
+@media (max-width: 860px) { .foot-links { justify-content: flex-start; } }
 .site-foot .foot-title { margin: 0 0 6px; color: var(--ink); font-size: 16px; font-weight: 700; }
-.site-foot a { color: var(--ink-2); text-decoration: none; display: block; padding: 11px 0; line-height: 1.4; }
+.site-foot a { color: var(--ink-2); text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; line-height: 1.4; }
 .site-foot a.brand { display: inline-flex; padding: 8px 0; }
 .site-foot a:hover { color: var(--brand); }
-.site-foot .note { margin-top: 10px; }
-.site-foot .brand { font-size: 21px; margin-bottom: 10px; display: inline-flex; padding: 0; }
+.site-foot .note { margin-top: 2px; }
+.site-foot .brand { font-size: 21px; margin-bottom: 0; display: inline-flex; padding: 0; }
 .site-foot .brand svg { width: 26px; height: 26px; }
 
 @media (max-width: 860px) {
@@ -240,7 +243,6 @@ details p { margin: 0; padding: 0 22px 20px; color: var(--ink-2); }
   .hero-panel.phone-bottom .hero-copy { padding-bottom: 0; }
   .feature.flip > :first-child { order: 0; }
   .app-tile img.photo { width: 150px; }
-  .site-foot .wrap { grid-template-columns: 1fr; }
   .band { grid-template-columns: 1fr; padding: 32px 24px; border-radius: 28px; }
   .guide-hero .panel { padding: 32px 24px 26px; border-radius: 28px; }
   section { padding-top: 48px; }
@@ -316,7 +318,22 @@ details p { margin: 0; padding: 0 22px 20px; color: var(--ink-2); }
 .play-link { display: inline-flex; border-radius: 10px; line-height: 0; transition: transform .12s var(--ease); }
 .play-link:active { transform: scale(.97); }
 .play-badge { height: 60px; width: auto; }
-.foot-langs { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 4px; margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--line); }
+.foot-langs { display: flex; flex-wrap: wrap; align-items: center; gap: 0 4px; margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--line); }
 .foot-langs span { color: var(--ink-2); margin-right: 6px; }
 .site-foot .foot-langs a { padding: 11px 10px; min-height: 44px; display: inline-flex; align-items: center; }
 .site-foot .foot-langs a[aria-current] { font-weight: 700; color: var(--ink); }
+
+.lang-menu { position: relative; }
+.lang-menu summary { list-style: none; cursor: pointer; color: var(--ink-2); padding: 11px 14px; min-height: 44px; display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; transition: background-color .15s var(--ease); }
+.lang-menu summary::-webkit-details-marker { display: none; }
+.lang-menu summary svg { width: 20px; height: 20px; }
+.lang-menu summary:hover, .lang-menu[open] summary { background: var(--sky); color: var(--ink); }
+.lang-menu ul { position: absolute; right: 0; top: calc(100% + 6px); z-index: 20; list-style: none; margin: 0; padding: 6px; min-width: 190px; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--phone-shadow); }
+.lang-menu li a { display: flex; align-items: center; min-height: 44px; padding: 0 14px; border-radius: 12px; color: var(--ink-2); font-weight: 600; }
+.lang-menu li a:hover { background: var(--sky); color: var(--ink); }
+.lang-menu li a[aria-current] { color: var(--ink); background: var(--sky); }
+.lang-menu summary::after, .lang-menu summary::before { content: none; display: none; }
+.lang-menu summary .chev { width: 14px; height: 14px; transition: transform .15s var(--ease); }
+.lang-menu[open] summary .chev { transform: rotate(180deg); }
+@media (max-width: 420px) { .nav { gap: 2px; } .nav a, .lang-menu summary { padding: 11px 10px; } .site-foot { margin-top: 40px; } .foot-links { column-gap: 16px; } }
+@media (max-width: 560px) { .foot-langs { display: none; } }
