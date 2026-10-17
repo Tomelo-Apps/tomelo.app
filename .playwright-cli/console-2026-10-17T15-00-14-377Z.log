@@ -1,0 +1,2 @@
+[     718ms] [ERROR] Access to XMLHttpRequest at 'https://cloudflareinsights.com/cdn-cgi/rum' from origin 'http://127.0.0.1:8765' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://127.0.0.1' that is not equal to the supplied origin. @ http://127.0.0.1:8765/pillbell/guide/cs.html:0
+[     719ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://cloudflareinsights.com/cdn-cgi/rum:0
