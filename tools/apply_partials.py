@@ -25,7 +25,7 @@ PART = {p.stem: p.read_text(encoding="utf-8").strip() for p in (ROOT / "partials
 LANGS = ["en", "cs", "de", "fr", "es", "it", "pl", "nl", "pt", "uk"]
 NAMES = {"en": "English", "cs": "Čeština", "de": "Deutsch", "fr": "Français", "es": "Español",
          "it": "Italiano", "pl": "Polski", "nl": "Nederlands", "pt": "Português", "uk": "Українська"}
-GROUPS = ["index.html", "pillbell/index.html", "help/index.html", "contact/index.html"]
+GROUPS = ["index.html", "pillbell/index.html", "pillbell/care/index.html", "help/index.html", "contact/index.html"]
 
 T = {  # skip, home_label, main_label, apps, help, contact, tagline, note, help_centre,
        # pillbell_guide, company, legal, web_privacy, pb_privacy, language, overview, guide, privacy
