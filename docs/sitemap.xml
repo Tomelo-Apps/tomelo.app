@@ -313,6 +313,7 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
   </url>
+  <url><loc>https://tomelo.app/de/pillbell/care/</loc><lastmod>2026-10-17</lastmod></url>
   <url>
     <loc>https://tomelo.app/fr/</loc><lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
@@ -369,6 +370,7 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
   </url>
+  <url><loc>https://tomelo.app/fr/pillbell/care/</loc><lastmod>2026-10-17</lastmod></url>
   <url>
     <loc>https://tomelo.app/es/</loc><lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
@@ -425,6 +427,7 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
   </url>
+  <url><loc>https://tomelo.app/es/pillbell/care/</loc><lastmod>2026-10-17</lastmod></url>
   <url>
     <loc>https://tomelo.app/it/</loc><lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
@@ -481,6 +484,7 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
   </url>
+  <url><loc>https://tomelo.app/it/pillbell/care/</loc><lastmod>2026-10-17</lastmod></url>
   <url>
     <loc>https://tomelo.app/pl/</loc><lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
@@ -537,6 +541,7 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
   </url>
+  <url><loc>https://tomelo.app/pl/pillbell/care/</loc><lastmod>2026-10-17</lastmod></url>
   <url>
     <loc>https://tomelo.app/nl/</loc><lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
@@ -593,6 +598,7 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
   </url>
+  <url><loc>https://tomelo.app/nl/pillbell/care/</loc><lastmod>2026-10-17</lastmod></url>
   <url>
     <loc>https://tomelo.app/pt/</loc><lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
@@ -649,6 +655,7 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
   </url>
+  <url><loc>https://tomelo.app/pt/pillbell/care/</loc><lastmod>2026-10-17</lastmod></url>
   <url>
     <loc>https://tomelo.app/uk/</loc><lastmod>2026-10-17</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://tomelo.app/"/>
@@ -705,4 +712,5 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://tomelo.app/uk/pillbell/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tomelo.app/pillbell/"/>
   </url>
+  <url><loc>https://tomelo.app/uk/pillbell/care/</loc><lastmod>2026-10-17</lastmod></url>
 </urlset>
