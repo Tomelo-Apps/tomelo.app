@@ -12,7 +12,7 @@ import sys
 SITE = pathlib.Path(__file__).resolve().parent.parent / "docs"
 BASE = "https://tomelo.app"
 LANGS = ["en", "cs", "de", "fr", "es", "it", "pl", "nl", "pt", "uk"]
-GROUPS = ["index.html", "pillbell/index.html", "help/index.html", "contact/index.html"]
+GROUPS = ["index.html", "pillbell/index.html", "widgets/index.html", "help/index.html", "contact/index.html"]
 day = sys.argv[1] if len(sys.argv) > 1 else datetime.date.today().isoformat()
 
 

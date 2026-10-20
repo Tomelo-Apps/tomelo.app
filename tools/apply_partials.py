@@ -2,7 +2,8 @@
 
 Pages mark where they go with <!--#header--> ... <!--/header-->,
 <!--#footer--> ... <!--/footer--> and, on product pages,
-<!--#product-pillbell--> ... <!--/product-pillbell-->. Run after editing
+<!--#product-pillbell--> ... <!--/product-pillbell--> (or
+<!--#product-widgets--> ... <!--/product-widgets-->). Run after editing
 anything in partials/ or adding a translated page:
 
     python tools/apply_partials.py
@@ -25,72 +26,73 @@ PART = {p.stem: p.read_text(encoding="utf-8").strip() for p in (ROOT / "partials
 LANGS = ["en", "cs", "de", "fr", "es", "it", "pl", "nl", "pt", "uk"]
 NAMES = {"en": "English", "cs": "Čeština", "de": "Deutsch", "fr": "Français", "es": "Español",
          "it": "Italiano", "pl": "Polski", "nl": "Nederlands", "pt": "Português", "uk": "Українська"}
-GROUPS = ["index.html", "pillbell/index.html", "pillbell/care/index.html", "help/index.html", "contact/index.html"]
+GROUPS = ["index.html", "pillbell/index.html", "pillbell/care/index.html", "widgets/index.html", "help/index.html", "contact/index.html"]
 
 T = {  # skip, home_label, main_label, apps, help, contact, tagline, note, help_centre,
-       # pillbell_guide, company, legal, web_privacy, pb_privacy, language, overview, guide, privacy
+       # pillbell_guide, company, legal, web_privacy, pb_privacy, language, overview, guide, privacy,
+       # care, wg_privacy
     "en": ["Skip to content", "Tomelo Apps home", "Main", "Apps", "Help", "Contact",
            "Simple apps that do one job reliably.",
            "This website uses no cookies and no ads. Visits are counted without cookies.",
            "Help centre", "PillBell guide", "Company", "Legal notice", "Website privacy",
-           "PillBell privacy policy", "Language", "Overview", "Guide", "Privacy", "For care services"],
+           "PillBell privacy policy", "Language", "Overview", "Guide", "Privacy", "For care services", "Tomelo Widgets privacy policy"],
     "cs": ["Přeskočit na obsah", "Tomelo Apps, úvod", "Hlavní", "Aplikace", "Nápověda", "Kontakt",
            "Jednoduché aplikace, které spolehlivě dělají jednu věc.",
            "Tento web nepoužívá cookies ani reklamy. Návštěvy počítáme bez cookies.",
            "Centrum nápovědy", "Návod k PillBell", "Firma", "Právní informace (anglicky)",
            "Soukromí na webu (anglicky)", "Zásady soukromí PillBell (anglicky)", "Jazyk",
-           "Přehled", "Návod", "Soukromí", "Pro pečovatele"],
+           "Přehled", "Návod", "Soukromí", "Pro pečovatele", "Zásady soukromí Tomelo Widgets (anglicky)"],
     "de": ["Zum Inhalt springen", "Tomelo Apps Startseite", "Hauptmenü", "Apps", "Hilfe", "Kontakt",
            "Einfache Apps, die eine Aufgabe zuverlässig erledigen.",
            "Diese Website nutzt keine Cookies und keine Werbung. Besuche werden ohne Cookies gezählt.",
            "Hilfe", "PillBell-Anleitung", "Unternehmen", "Impressum (Englisch)",
            "Datenschutz der Website (Englisch)", "PillBell-Datenschutzerklärung (Englisch)", "Sprache",
-           "Überblick", "Anleitung", "Datenschutz", "Für Pflegedienste"],
+           "Überblick", "Anleitung", "Datenschutz", "Für Pflegedienste", "Tomelo-Widgets-Datenschutzerklärung (Englisch)"],
     "fr": ["Aller au contenu", "Accueil Tomelo Apps", "Principal", "Applications", "Aide", "Contact",
            "Des applications simples qui font une seule chose, de façon fiable.",
            "Ce site n'utilise ni cookies ni publicité. Les visites sont comptées sans cookies.",
            "Centre d'aide", "Guide PillBell", "Entreprise", "Mentions légales (anglais)",
            "Confidentialité du site (anglais)", "Politique de confidentialité PillBell (anglais)", "Langue",
-           "Aperçu", "Guide", "Confidentialité", "Services d'aide"],
+           "Aperçu", "Guide", "Confidentialité", "Services d'aide", "Politique de confidentialité Tomelo Widgets (anglais)"],
     "es": ["Saltar al contenido", "Inicio de Tomelo Apps", "Principal", "Apps", "Ayuda", "Contacto",
            "Apps sencillas que hacen una sola cosa, y la hacen bien.",
            "Este sitio no usa cookies ni anuncios. Las visitas se cuentan sin cookies.",
            "Centro de ayuda", "Guía de PillBell", "Empresa", "Aviso legal (inglés)",
            "Privacidad del sitio (inglés)", "Política de privacidad de PillBell (inglés)", "Idioma",
-           "Resumen", "Guía", "Privacidad", "Servicios de cuidados"],
+           "Resumen", "Guía", "Privacidad", "Servicios de cuidados", "Política de privacidad de Tomelo Widgets (inglés)"],
     "it": ["Vai al contenuto", "Home di Tomelo Apps", "Principale", "App", "Aiuto", "Contatti",
            "App semplici che fanno una cosa sola, in modo affidabile.",
            "Questo sito non usa cookie né pubblicità. Le visite vengono contate senza cookie.",
            "Centro assistenza", "Guida di PillBell", "Azienda", "Note legali (inglese)",
            "Privacy del sito (inglese)", "Informativa privacy di PillBell (inglese)", "Lingua",
-           "Panoramica", "Guida", "Privacy", "Servizi di assistenza"],
+           "Panoramica", "Guida", "Privacy", "Servizi di assistenza", "Informativa privacy di Tomelo Widgets (inglese)"],
     "pl": ["Przejdź do treści", "Strona główna Tomelo Apps", "Główne", "Aplikacje", "Pomoc", "Kontakt",
            "Proste aplikacje, które niezawodnie robią jedną rzecz.",
            "Ta strona nie używa plików cookie ani reklam. Wizyty liczymy bez plików cookie.",
            "Centrum pomocy", "Instrukcja PillBell", "Firma", "Informacje prawne (po angielsku)",
            "Prywatność strony (po angielsku)", "Polityka prywatności PillBell (po angielsku)", "Język",
-           "Przegląd", "Instrukcja", "Prywatność", "Dla opiekunów"],
+           "Przegląd", "Instrukcja", "Prywatność", "Dla opiekunów", "Polityka prywatności Tomelo Widgets (po angielsku)"],
     "nl": ["Naar de inhoud", "Tomelo Apps home", "Hoofdmenu", "Apps", "Hulp", "Contact",
            "Eenvoudige apps die één ding betrouwbaar doen.",
            "Deze website gebruikt geen cookies en geen advertenties. Bezoeken worden zonder cookies geteld.",
            "Helpcentrum", "PillBell-handleiding", "Bedrijf", "Juridische informatie (Engels)",
            "Privacy van de website (Engels)", "Privacybeleid PillBell (Engels)", "Taal",
-           "Overzicht", "Handleiding", "Privacy", "Zorgorganisaties"],
+           "Overzicht", "Handleiding", "Privacy", "Zorgorganisaties", "Privacybeleid Tomelo Widgets (Engels)"],
     "pt": ["Saltar para o conteúdo", "Início da Tomelo Apps", "Principal", "Apps", "Ajuda", "Contacto",
            "Apps simples que fazem uma só coisa, de forma fiável.",
            "Este site não usa cookies nem anúncios. As visitas são contadas sem cookies.",
            "Centro de ajuda", "Guia do PillBell", "Empresa", "Informação legal (inglês)",
            "Privacidade do site (inglês)", "Política de privacidade do PillBell (inglês)", "Idioma",
-           "Visão geral", "Guia", "Privacidade", "Apoio domiciliário"],
+           "Visão geral", "Guia", "Privacidade", "Apoio domiciliário", "Política de privacidade do Tomelo Widgets (inglês)"],
     "uk": ["Перейти до змісту", "Tomelo Apps, головна", "Головне", "Застосунки", "Допомога", "Контакти",
            "Прості застосунки, які надійно роблять одну справу.",
            "Цей сайт не використовує cookies і рекламу. Відвідування рахуються без cookies.",
            "Центр допомоги", "Посібник PillBell", "Компанія", "Правова інформація (англійською)",
            "Конфіденційність сайту (англійською)", "Політика конфіденційності PillBell (англійською)", "Мова",
-           "Огляд", "Посібник", "Конфіденційність", "Для служб догляду"],
+           "Огляд", "Посібник", "Конфіденційність", "Для служб догляду", "Політика конфіденційності Tomelo Widgets (англійською)"],
 }
 KEYS = ["skip", "home_label", "main_label", "apps", "help", "contact", "tagline", "note", "help_centre",
-        "pillbell_guide", "company", "legal", "web_privacy", "pb_privacy", "language", "overview", "guide", "privacy", "care"]
+        "pillbell_guide", "company", "legal", "web_privacy", "pb_privacy", "language", "overview", "guide", "privacy", "care", "wg_privacy"]
 
 
 def url(rel):
@@ -131,7 +133,7 @@ def section(base, rel):
         return "/help/"
     if base.startswith("contact/"):
         return "/contact/"
-    if base.startswith("pillbell/"):
+    if base.startswith("pillbell/") or base.startswith("widgets/"):
         return "/#apps"
     return None
 
@@ -165,6 +167,10 @@ for page in sorted(SITE.rglob("*.html")):
         here = v["guide_href"]
     if here:
         product = mark(product, here)
+    widgets = fill(PART["product-widgets"], v)
+    wg_here = {"widgets/index.html": f"{p}/widgets/", "widgets/privacy/index.html": "/widgets/privacy/"}.get(base)
+    if wg_here:
+        widgets = mark(widgets, wg_here)
 
     eq = equivalents(rel)
     links = "".join(
@@ -176,7 +182,7 @@ for page in sorted(SITE.rglob("*.html")):
     items = "".join(
         f'<li><a href="{url(r)}" hreflang="{l}" lang="{l}"' + (' aria-current="true"' if l == lang else "") + f">{NAMES[l]}</a></li>"
         for l, r in menu.items())
-    v["langmenu"] = (f'<details class="lang-menu"><summary aria-label="{v["language"]}: {NAMES[lang]}">'
+    v["langmenu"] = (f'<details class="lang-menu"><summary aria-label="{v["language"]}: {NAMES[lang]}, {lang.upper()}">'
                      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">'
                      '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>'
                      f'<span>{lang.upper()}</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><ul>{items}</ul></details>') if len(menu) > 1 else ""
