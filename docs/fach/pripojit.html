@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="description" content="You have been invited to a business in Tomelo Fach. Open the app, choose to join an existing business and paste the link.">
+<link rel="canonical" href="https://tomelo.app/fach/pripojit">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<title>Invitation to Tomelo Fach</title>
+<script>
+/* The invite code is the part after # in the address. Browsers never send it to a website.
+   Keep it in memory for the copy button and drop it from the address before anything else loads. */
+window.fachInvite = location.hash.length > 1 ? location.href : "";
+if (window.fachInvite && history.replaceState) history.replaceState(null, "", location.pathname);
+</script>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<!--#header-->
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Tomelo Apps home">
+      <svg viewBox="0 0 100 100" aria-hidden="true"><circle class="logo-on" cx="20" cy="20" r="13"/><circle class="logo-on" cx="50" cy="20" r="13"/><circle class="logo-on" cx="80" cy="20" r="13"/><circle class="logo-off" cx="20" cy="50" r="13"/><circle class="logo-on" cx="50" cy="50" r="13"/><circle class="logo-off" cx="80" cy="50" r="13"/><circle class="logo-off" cx="20" cy="80" r="13"/><circle class="logo-on" cx="50" cy="80" r="13"/><circle class="logo-sun" cx="80" cy="80" r="13"/></svg>
+      <span>Tomelo</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="/#apps" aria-current="page">Apps</a>
+      <a href="/help/">Help</a>
+      <a href="/contact/">Contact</a>
+      <details class="lang-menu"><summary aria-label="Language: English, EN"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg><span>EN</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><ul><li><a href="/" hreflang="en" lang="en" aria-current="true">English</a></li><li><a href="/cs/" hreflang="cs" lang="cs">Čeština</a></li><li><a href="/de/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/fr/" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/" hreflang="es" lang="es">Español</a></li><li><a href="/it/" hreflang="it" lang="it">Italiano</a></li><li><a href="/pl/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/nl/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pt/" hreflang="pt" lang="pt">Português</a></li><li><a href="/uk/" hreflang="uk" lang="uk">Українська</a></li></ul></details>
+    </nav>
+  </div>
+</header>
+<!--/header-->
+<!--#product-fach-->
+<nav class="subnav" aria-label="Tomelo Fach">
+  <div class="wrap">
+    <span class="subnav-name"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="0.75" y="0.75" width="62.5" height="62.5" rx="19.5" fill="#FFF6EC" stroke="#F3D3AE" stroke-width="1.5"/><circle cx="20" cy="20" r="5.2" fill="#C2410C"/><circle cx="32" cy="20" r="5.2" fill="#C2410C"/><circle cx="44" cy="20" r="5.2" fill="#C2410C"/><circle cx="20" cy="32" r="5.2" fill="#F3D3AE"/><circle cx="32" cy="32" r="5.2" fill="#C2410C"/><circle cx="44" cy="32" r="5.2" fill="#F3D3AE"/><circle cx="20" cy="44" r="5.2" fill="#F3D3AE"/><circle cx="32" cy="44" r="5.2" fill="#C2410C"/><circle cx="44" cy="44" r="5.2" fill="#2457C5"/></svg>Tomelo Fach</span>
+    <a href="/fach/">Overview</a>
+    <a href="/fach/privacy/">Privacy</a>
+    <a href="/fach/terms/">Terms</a>
+  </div>
+</nav>
+<!--/product-fach-->
+<main id="main" class="wrap narrow prose">
+<section lang="en">
+<h1>You've been invited to Tomelo Fach</h1>
+<p>Someone added you to their business in Tomelo Fach, the app for quotes, jobs and invoices. Finish joining in the app:</p>
+<ol class="invite-steps">
+  <li>Install Tomelo Fach on your Android phone.</li>
+  <li>Open it and choose <strong>Join an existing business</strong>.</li>
+  <li>Paste the whole link from the message you got, or the code.</li>
+  <li>Sign in with the Google account the invite was sent to, and confirm access.</li>
+</ol>
+<div class="box invite" hidden>
+  <strong>Your invite link</strong>
+  <div class="invite-code"><code data-code></code> <button class="btn btn-primary" type="button" data-copy>Copy the link</button></div>
+  <p data-done hidden>Copied. Now paste it in the app.</p>
+</div>
+<p>The code in the link stays on your phone. It is never sent to this website.</p>
+</section>
+
+<section lang="cs" class="invite-lang">
+<h2>Pozvánka do Tomelo Fach</h2>
+<ol class="invite-steps">
+  <li>Nainstalujte si do telefonu s Androidem Tomelo Fach.</li>
+  <li>Otevřete ji a zvolte <strong>Připojit se k firmě, která už existuje</strong>.</li>
+  <li>Vložte celý odkaz ze zprávy, kterou jste dostali, nebo kód.</li>
+  <li>Přihlaste se účtem Google, na který přišla pozvánka, a potvrďte přístup.</li>
+</ol>
+<p><button class="btn btn-ghost" type="button" data-copy hidden>Zkopírovat odkaz</button></p>
+</section>
+
+<section lang="sk" class="invite-lang">
+<h2>Pozvánka do Tomelo Fach</h2>
+<ol class="invite-steps">
+  <li>Nainštalujte si do telefónu s Androidom Tomelo Fach.</li>
+  <li>Otvorte ju a zvoľte <strong>Pripojiť sa k firme, ktorá už existuje</strong>.</li>
+  <li>Vložte celý odkaz zo správy, ktorú ste dostali, alebo kód.</li>
+  <li>Prihláste sa účtom Google, na ktorý prišla pozvánka, a potvrďte prístup.</li>
+</ol>
+<p><button class="btn btn-ghost" type="button" data-copy hidden>Skopírovať odkaz</button></p>
+</section>
+
+<section lang="de" class="invite-lang">
+<h2>Einladung zu Tomelo Fach</h2>
+<ol class="invite-steps">
+  <li>Installieren Sie Tomelo Fach auf Ihrem Android-Handy.</li>
+  <li>Öffnen Sie die App und wählen Sie <strong>Einer bestehenden Firma beitreten</strong>.</li>
+  <li>Fügen Sie den ganzen Link aus der Nachricht ein, oder den Code.</li>
+  <li>Melden Sie sich mit dem Google-Konto an, an das die Einladung ging, und bestätigen Sie den Zugriff.</li>
+</ol>
+<p><button class="btn btn-ghost" type="button" data-copy hidden>Link kopieren</button></p>
+</section>
+<p style="margin-top:40px"><a href="/fach/">Tomelo Fach</a> · <a href="mailto:support@tomelo.app">support@tomelo.app</a></p>
+</main>
+<script>
+(function () {
+  var link = window.fachInvite;
+  if (!link) return;
+  var box = document.querySelector(".invite");
+  box.hidden = false;
+  box.querySelector("[data-code]").textContent = link;
+  var done = box.querySelector("[data-done]");
+  document.querySelectorAll("[data-copy]").forEach(function (b) {
+    b.hidden = false;
+    b.addEventListener("click", function () {
+      if (!navigator.clipboard) return;
+      navigator.clipboard.writeText(link).then(function () { done.hidden = false; });
+    });
+  });
+})();
+</script>
+<!--#footer-->
+<footer class="site-foot">
+  <div class="wrap foot-main">
+    <div class="foot-brand">
+      <a class="brand" href="/" aria-label="Tomelo Apps home">
+        <svg viewBox="0 0 100 100" aria-hidden="true"><circle class="logo-on" cx="20" cy="20" r="13"/><circle class="logo-on" cx="50" cy="20" r="13"/><circle class="logo-on" cx="80" cy="20" r="13"/><circle class="logo-off" cx="20" cy="50" r="13"/><circle class="logo-on" cx="50" cy="50" r="13"/><circle class="logo-off" cx="80" cy="50" r="13"/><circle class="logo-off" cx="20" cy="80" r="13"/><circle class="logo-on" cx="50" cy="80" r="13"/><circle class="logo-sun" cx="80" cy="80" r="13"/></svg>
+        <span>Tomelo</span>
+      </a>
+      <p class="note">This website uses no cookies and no ads. Visits are counted without cookies.</p>
+    </div>
+    <nav class="foot-links" aria-label="Tomelo">
+      <a href="/pillbell/">PillBell</a>
+      <a href="/widgets/">Tomelo Widgets</a>
+      <a href="/help/">Help centre</a>
+      <a href="/pillbell/guide/">PillBell guide</a>
+      <a href="/contact/">Contact</a>
+      <a href="/legal/" hreflang="en">Legal notice</a>
+      <a href="/privacy/" hreflang="en">Website privacy</a>
+      <a href="/pillbell/privacy/" hreflang="en">PillBell privacy policy</a>
+      <a href="/widgets/privacy/" hreflang="en">Tomelo Widgets privacy policy</a>
+    </nav>
+  </div>
+  <nav class="foot-langs wrap" aria-label="Language"><span>Language:</span> <a href="/" hreflang="en" lang="en">English</a><a href="/cs/" hreflang="cs" lang="cs">Čeština</a><a href="/de/" hreflang="de" lang="de">Deutsch</a><a href="/fr/" hreflang="fr" lang="fr">Français</a><a href="/es/" hreflang="es" lang="es">Español</a><a href="/it/" hreflang="it" lang="it">Italiano</a><a href="/pl/" hreflang="pl" lang="pl">Polski</a><a href="/nl/" hreflang="nl" lang="nl">Nederlands</a><a href="/pt/" hreflang="pt" lang="pt">Português</a><a href="/uk/" hreflang="uk" lang="uk">Українська</a></nav>
+</footer>
+<script>document.addEventListener("click",function(e){document.querySelectorAll("details.lang-menu[open]").forEach(function(d){if(!d.contains(e.target))d.removeAttribute("open")})});document.addEventListener("keydown",function(e){if(e.key==="Escape")document.querySelectorAll("details.lang-menu[open]").forEach(function(d){d.removeAttribute("open");d.querySelector("summary").focus()})});</script>
+<!-- Cloudflare Web Analytics: no cookies, no personal data (see /privacy/) --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "9277f3cd3c524c21a92f93c1a28e83be"}'></script>
+<!--/footer-->
+</body>
+</html>
