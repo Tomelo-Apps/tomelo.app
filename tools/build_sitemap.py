@@ -12,7 +12,7 @@ import sys
 SITE = pathlib.Path(__file__).resolve().parent.parent / "docs"
 BASE = "https://tomelo.app"
 LANGS = ["en", "cs", "de", "fr", "es", "it", "pl", "nl", "pt", "uk"]
-GROUPS = ["index.html", "pillbell/index.html", "widgets/index.html", "help/index.html", "contact/index.html"]
+GROUPS = ["index.html", "pillbell/index.html", "widgets/index.html", "fach/index.html", "help/index.html", "contact/index.html"]
 day = sys.argv[1] if len(sys.argv) > 1 else datetime.date.today().isoformat()
 
 
@@ -41,7 +41,7 @@ def order(rel):
     return (LANGS.index(lang) if not rel.startswith("pillbell/guide/") else 0, rel.count("/"), rel)
 
 
-pages = sorted((p.relative_to(SITE).as_posix() for p in SITE.rglob("*.html") if p.name != "404.html"), key=order)
+pages = sorted((p.relative_to(SITE).as_posix() for p in SITE.rglob("*.html") if p.name != "404.html" and "noindex" not in p.read_text(encoding="utf-8")[:2000]), key=order)
 out = ['<?xml version="1.0" encoding="UTF-8"?>',
        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
 for rel in pages:

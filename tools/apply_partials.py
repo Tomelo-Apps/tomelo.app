@@ -26,7 +26,11 @@ PART = {p.stem: p.read_text(encoding="utf-8").strip() for p in (ROOT / "partials
 LANGS = ["en", "cs", "de", "fr", "es", "it", "pl", "nl", "pt", "uk"]
 NAMES = {"en": "English", "cs": "Čeština", "de": "Deutsch", "fr": "Français", "es": "Español",
          "it": "Italiano", "pl": "Polski", "nl": "Nederlands", "pt": "Português", "uk": "Українська"}
-GROUPS = ["index.html", "pillbell/index.html", "pillbell/care/index.html", "widgets/index.html", "help/index.html", "contact/index.html"]
+GROUPS = ["index.html", "pillbell/index.html", "pillbell/care/index.html", "widgets/index.html", "fach/index.html", "help/index.html", "contact/index.html"]
+FACH_TERMS = {"en": "Terms", "cs": "Podmínky", "de": "Nutzungsbedingungen", "fr": "Conditions", "es": "Condiciones", "it": "Condizioni",
+              "pl": "Warunki", "nl": "Voorwaarden", "pt": "Termos", "uk": "Умови"}
+FACH_TERMS = {"en": "Terms", "cs": "Podmínky", "de": "Nutzungsbedingungen", "fr": "Conditions", "es": "Condiciones", "it": "Condizioni",
+              "pl": "Warunki", "nl": "Voorwaarden", "pt": "Termos", "uk": "Умови"}
 
 T = {  # skip, home_label, main_label, apps, help, contact, tagline, note, help_centre,
        # pillbell_guide, company, legal, web_privacy, pb_privacy, language, overview, guide, privacy,
@@ -133,7 +137,7 @@ def section(base, rel):
         return "/help/"
     if base.startswith("contact/"):
         return "/contact/"
-    if base.startswith("pillbell/") or base.startswith("widgets/"):
+    if base.startswith("pillbell/") or base.startswith("widgets/") or base.startswith("fach/"):
         return "/#apps"
     return None
 
@@ -171,6 +175,11 @@ for page in sorted(SITE.rglob("*.html")):
     wg_here = {"widgets/index.html": f"{p}/widgets/", "widgets/privacy/index.html": "/widgets/privacy/"}.get(base)
     if wg_here:
         widgets = mark(widgets, wg_here)
+    v["terms"] = FACH_TERMS[lang]
+    fach = fill(PART["product-fach"], v)
+    fa_here = {"fach/index.html": f"{p}/fach/", "fach/privacy/index.html": "/fach/privacy/", "fach/terms/index.html": "/fach/terms/"}.get(base)
+    if fa_here:
+        fach = mark(fach, fa_here)
 
     eq = equivalents(rel)
     links = "".join(
@@ -194,6 +203,7 @@ for page in sorted(SITE.rglob("*.html")):
     new = re.sub(r"<!--#header-->.*?<!--/header-->", lambda m: f"<!--#header-->\n{header}\n<!--/header-->", text, flags=re.S)
     new = re.sub(r"<!--#footer-->.*?<!--/footer-->", lambda m: f"<!--#footer-->\n{footer}\n<!--/footer-->", new, flags=re.S)
     new = re.sub(r"<!--#product-pillbell-->.*?<!--/product-pillbell-->", lambda m: f"<!--#product-pillbell-->\n{product}\n<!--/product-pillbell-->", new, flags=re.S)
+    new = re.sub(r"<!--#product-fach-->.*?<!--/product-fach-->", lambda m: f"<!--#product-fach-->\n{fach}\n<!--/product-fach-->", new, flags=re.S)
     new = re.sub(r"<main(?![^>]*\bid=)", '<main id="main"', new)
 
     # hreflang alternates for translated page groups (the guide has its own)
